@@ -211,7 +211,7 @@ void print_info()   //用于终端打印信息
     }
 }
 
-void msg_pub()  //ROS2消息发布
+void msg_pub()  //ROS2消息发布 
 {
     auto pub_node = rclcpp::Node::make_shared("ManualControl_pub");
     auto manual_control_publisher = pub_node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/manual_control", 10);
