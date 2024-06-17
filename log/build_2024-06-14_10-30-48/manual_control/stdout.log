@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target manual_control[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/manual_control.dir/src/Manual_control.cpp.o[0m
-[100%] [32m[1mLinking CXX executable manual_control[0m
-[100%] Built target manual_control

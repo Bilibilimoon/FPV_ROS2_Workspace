@@ -1,9 +1,0 @@
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/install/strip.dir
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/install/local.dir
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/edit_cache.dir
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/test.dir
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/install.dir
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/list_install_components.dir
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/rebuild_cache.dir
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/mavlink_pub_uninstall.dir
-/home/moonly/fpv_ros2_workspace/build/mavlink_pub/CMakeFiles/uninstall.dir

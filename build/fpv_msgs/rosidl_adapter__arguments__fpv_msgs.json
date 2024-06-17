@@ -1,6 +1,0 @@
-{
-  "package_name": "fpv_msgs",
-  "non_idl_tuples": [
-    "/home/moonly/fpv_ros2_workspace/src/fpv_msgs:msg/MoonlyFpv.msg"
-  ]
-}
