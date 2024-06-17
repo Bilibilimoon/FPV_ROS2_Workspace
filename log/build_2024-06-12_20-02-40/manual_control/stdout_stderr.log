@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target manual_control[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/manual_control.dir/src/Manual_control.cpp.o[0m
+In file included from [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/src/Manual_control.cpp:3[m[K:
+[01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:[m[K In function ‘[01m[Kvoid getkey_thread_func()[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:116:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint_info[m[K’ was not declared in this scope; did you mean ‘[01m[Kpsiginfo[m[K’?
+  116 |             [01;31m[Kprint_info[m[K();
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kpsiginfo[m[K
+make[2]: *** [CMakeFiles/manual_control.dir/build.make:63：CMakeFiles/manual_control.dir/src/Manual_control.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/manual_control.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,48 @@
+[0.037s] Invoking command in '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2': AMENT_PREFIX_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2 -- -j8 -l8
+[0.131s] [35m[1mScanning dependencies of target dgps_ros2_node[0m
+[0.164s] [ 33%] Built target dgps_ros2_exe
+[0.183s] [ 50%] [32mBuilding CXX object CMakeFiles/dgps_ros2_node.dir/src/dgps_ros2_node.cpp.o[0m
+[7.420s] In file included from [01m[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/ntrip.h:5[m[K,
+[7.421s]                  from [01m[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/dgps_ros2_node.cpp:6[m[K:
+[7.421s] [01m[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/serial.h:55:28:[m[K [01;35m[Kwarning: [m[K‘[01m[KSerialProtocol SerialGetProtocol(const char*, int*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[7.421s]    55 | static enum SerialProtocol [01;35m[KSerialGetProtocol[m[K(const char *buf, int *ressize)
+[7.421s]       |                            [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[7.421s] [01m[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/serial.h:33:26:[m[K [01;35m[Kwarning: [m[K‘[01m[KSerialParity SerialGetParity(const char*, int*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[7.421s]    33 | static enum SerialParity [01;35m[KSerialGetParity[m[K(const char *buf, int *ressize)
+[7.421s]       |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[11.634s] [ 66%] [32m[1mLinking CXX shared library libdgps_ros2_node.so[0m
+[11.975s] [100%] Built target dgps_ros2_node
+[11.991s] Invoked command in '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2' returned '0': AMENT_PREFIX_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2 -- -j8 -l8
+[12.020s] Invoking command in '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2': AMENT_PREFIX_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2
+[12.026s] -- Install configuration: ""
+[12.026s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/lib/dgps_ros2/dgps_ros2_exe
+[12.026s] -- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/lib/libdgps_ros2_node.so
+[12.029s] -- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/lib/libdgps_ros2_node.so" to ""
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/include
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/include/dgps_ros2
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/include/dgps_ros2/serial.h
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/include/dgps_ros2/ntrip.h
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/launch
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/launch/dgps_ros2.launch.py
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/library_path.sh
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/library_path.dsv
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/ament_index/resource_index/package_run_dependencies/dgps_ros2
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/ament_index/resource_index/parent_prefix_path/dgps_ros2
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/ament_prefix_path.sh
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/ament_prefix_path.dsv
+[12.029s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/path.sh
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/path.dsv
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/local_setup.bash
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/local_setup.sh
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/local_setup.zsh
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/local_setup.dsv
+[12.030s] -- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/package.dsv
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/ament_index/resource_index/packages/dgps_ros2
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/ament_index/resource_index/rclcpp_components/dgps_ros2
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/ament_cmake_export_libraries-extras.cmake
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/dgps_ros2Config.cmake
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/dgps_ros2Config-version.cmake
+[12.030s] -- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/package.xml
+[12.032s] Invoked command in '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2' returned '0': AMENT_PREFIX_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2

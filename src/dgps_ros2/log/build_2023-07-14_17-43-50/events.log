@@ -1,0 +1,675 @@
+[0.000000] (-) TimerEvent: {}
+[0.000521] (dgps_msgs) JobQueued: {'identifier': 'dgps_msgs', 'dependencies': OrderedDict()}
+[0.001194] (dgps_ros2) JobQueued: {'identifier': 'dgps_ros2', 'dependencies': OrderedDict([('dgps_msgs', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs')])}
+[0.001729] (dgps_msgs) JobStarted: {'identifier': 'dgps_msgs'}
+[0.020484] (dgps_msgs) JobProgress: {'identifier': 'dgps_msgs', 'progress': 'cmake'}
+[0.020798] (dgps_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_msgs', '-DCMAKE_INSTALL_PREFIX=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs'], 'cwd': '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'moonly'), ('SSH_AGENT_PID', '1571'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control/lib:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/lib:/home/moonly/px4_ros_com_ros2/install/boat_transform/lib:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/moonly'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1384'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19481'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/install:/home/moonly/桌面/My_PX4_projects/Workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'moonly'), ('http_proxy', 'http://127.0.0.1:20171'), ('JOURNAL_STREAM', '8:40173'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'moonly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1610,unix/Mi-laptop:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '784055bf81124d7d8b44a058c20ef751'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-640d86f438.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('PWD', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.099493] (-) TimerEvent: {}
+[0.133908] (dgps_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199534] (-) TimerEvent: {}
+[0.222541] (dgps_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.228982] (dgps_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299766] (-) TimerEvent: {}
+[0.311576] (dgps_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.312763] (dgps_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.393395] (dgps_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399944] (-) TimerEvent: {}
+[0.404861] (dgps_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.405423] (dgps_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.408487] (dgps_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500291] (-) TimerEvent: {}
+[0.528310] (dgps_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.529748] (dgps_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600758] (-) TimerEvent: {}
+[0.651341] (dgps_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.662282] (dgps_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.662996] (dgps_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.669394] (dgps_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.700967] (-) TimerEvent: {}
+[0.723062] (dgps_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.723458] (dgps_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.801183] (-) TimerEvent: {}
+[0.902040] (-) TimerEvent: {}
+[0.972162] (dgps_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.002272] (-) TimerEvent: {}
+[1.012677] (dgps_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.023610] (dgps_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.102360] (-) TimerEvent: {}
+[1.162453] (dgps_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.194643] (dgps_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.202600] (-) TimerEvent: {}
+[1.280653] (dgps_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302895] (-) TimerEvent: {}
+[1.369947] (dgps_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.403254] (-) TimerEvent: {}
+[1.408559] (dgps_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.503476] (-) TimerEvent: {}
+[1.604261] (-) TimerEvent: {}
+[1.631572] (dgps_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)\n'}
+[1.636899] (dgps_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[1.641098] (dgps_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.8 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[1.645176] (dgps_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.704495] (-) TimerEvent: {}
+[1.805309] (-) TimerEvent: {}
+[1.832860] (dgps_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.893128] (dgps_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.905526] (-) TimerEvent: {}
+[1.929063] (dgps_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.930933] (dgps_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.972754] (dgps_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.973054] (dgps_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.973158] (dgps_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.973238] (dgps_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.994984] (dgps_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.005870] (-) TimerEvent: {}
+[2.062340] (dgps_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[2.064669] (dgps_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[2.069105] (dgps_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.090764] (dgps_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.091990] (dgps_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.092753] (dgps_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.099629] (dgps_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.106112] (-) TimerEvent: {}
+[2.172214] (dgps_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.177692] (dgps_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs\n'}
+[2.206368] (-) TimerEvent: {}
+[2.214111] (dgps_msgs) CommandEnded: {'returncode': 0}
+[2.216260] (dgps_msgs) JobProgress: {'identifier': 'dgps_msgs', 'progress': 'build'}
+[2.217709] (dgps_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs', '--', '-j8', '-l8'], 'cwd': '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'moonly'), ('SSH_AGENT_PID', '1571'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control/lib:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/lib:/home/moonly/px4_ros_com_ros2/install/boat_transform/lib:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/moonly'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1384'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19481'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/install:/home/moonly/桌面/My_PX4_projects/Workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'moonly'), ('http_proxy', 'http://127.0.0.1:20171'), ('JOURNAL_STREAM', '8:40173'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'moonly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1610,unix/Mi-laptop:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '784055bf81124d7d8b44a058c20ef751'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-640d86f438.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('PWD', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[2.296160] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__cpp\x1b[0m\n'}
+[2.298248] (dgps_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.306518] (-) TimerEvent: {}
+[2.320307] (dgps_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.406815] (-) TimerEvent: {}
+[2.507571] (-) TimerEvent: {}
+[2.608033] (-) TimerEvent: {}
+[2.708930] (-) TimerEvent: {}
+[2.809549] (-) TimerEvent: {}
+[2.910047] (-) TimerEvent: {}
+[3.011024] (-) TimerEvent: {}
+[3.111891] (-) TimerEvent: {}
+[3.157835] (dgps_msgs) StdoutLine: {'line': b'[  4%] Built target dgps_msgs__cpp\n'}
+[3.179693] (dgps_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.187066] (dgps_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.205457] (dgps_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.212126] (-) TimerEvent: {}
+[3.225776] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.261597] (dgps_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_generator_c.dir/rosidl_generator_c/dgps_msgs/msg/detail/gpfpd__functions.c.o\x1b[0m\n'}
+[3.262536] (dgps_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_generator_c.dir/rosidl_generator_c/dgps_msgs/msg/detail/gnvtg__functions.c.o\x1b[0m\n'}
+[3.267852] (dgps_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_generator_c.dir/rosidl_generator_c/dgps_msgs/msg/detail/gtimu__functions.c.o\x1b[0m\n'}
+[3.318799] (-) TimerEvent: {}
+[3.420065] (-) TimerEvent: {}
+[3.420855] (dgps_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libdgps_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.490850] (dgps_msgs) StdoutLine: {'line': b'[ 19%] Built target dgps_msgs__rosidl_generator_c\n'}
+[3.509487] (dgps_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.511741] (dgps_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.519860] (-) TimerEvent: {}
+[3.620413] (-) TimerEvent: {}
+[3.721004] (-) TimerEvent: {}
+[3.824928] (-) TimerEvent: {}
+[3.931031] (-) TimerEvent: {}
+[4.031968] (-) TimerEvent: {}
+[4.133511] (-) TimerEvent: {}
+[4.214546] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[4.233679] (-) TimerEvent: {}
+[4.255728] (dgps_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dgps_msgs/msg/detail/gpfpd__type_support.cpp.o\x1b[0m\n'}
+[4.264351] (dgps_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dgps_msgs/msg/detail/gtimu__type_support.cpp.o\x1b[0m\n'}
+[4.295119] (dgps_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dgps_msgs/msg/detail/gnvtg__type_support.cpp.o\x1b[0m\n'}
+[4.334369] (-) TimerEvent: {}
+[4.435418] (-) TimerEvent: {}
+[4.436628] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.450677] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.496927] (dgps_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dgps_msgs/msg/gnvtg__type_support.cpp.o\x1b[0m\n'}
+[4.530013] (dgps_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dgps_msgs/msg/gpfpd__type_support.cpp.o\x1b[0m\n'}
+[4.533447] (dgps_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dgps_msgs/msg/detail/dds_fastrtps/gnvtg__type_support.cpp.o\x1b[0m\n'}
+[4.535602] (-) TimerEvent: {}
+[4.638404] (-) TimerEvent: {}
+[4.742874] (-) TimerEvent: {}
+[4.773893] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.843240] (-) TimerEvent: {}
+[4.846276] (dgps_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dgps_msgs/msg/gnvtg__type_support.cpp.o\x1b[0m\n'}
+[4.944684] (-) TimerEvent: {}
+[4.996900] (dgps_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dgps_msgs/msg/gpfpd__type_support.cpp.o\x1b[0m\n'}
+[5.032118] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[5.039668] (dgps_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dgps_msgs/msg/detail/dds_fastrtps/gpfpd__type_support.cpp.o\x1b[0m\n'}
+[5.044895] (-) TimerEvent: {}
+[5.060863] (dgps_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dgps_msgs/msg/gtimu__type_support.cpp.o\x1b[0m\n'}
+[5.115090] (dgps_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dgps_msgs/msg/gtimu__type_support.cpp.o\x1b[0m\n'}
+[5.123547] (dgps_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dgps_msgs/msg/detail/gnvtg__type_support.c.o\x1b[0m\n'}
+[5.128087] (dgps_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libdgps_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.145243] (-) TimerEvent: {}
+[5.190723] (dgps_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dgps_msgs/msg/detail/gpfpd__type_support.c.o\x1b[0m\n'}
+[5.198759] (dgps_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libdgps_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.245614] (-) TimerEvent: {}
+[5.256357] (dgps_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dgps_msgs/msg/detail/dds_fastrtps/gtimu__type_support.cpp.o\x1b[0m\n'}
+[5.274953] (dgps_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dgps_msgs/msg/detail/gtimu__type_support.c.o\x1b[0m\n'}
+[5.315447] (dgps_msgs) StdoutLine: {'line': b'[ 59%] Built target dgps_msgs__rosidl_typesupport_c\n'}
+[5.345757] (-) TimerEvent: {}
+[5.359491] (dgps_msgs) StdoutLine: {'line': b'[ 59%] Built target dgps_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.361322] (dgps_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libdgps_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.442231] (dgps_msgs) StdoutLine: {'line': b'[ 61%] Built target dgps_msgs__rosidl_typesupport_introspection_c\n'}
+[5.446029] (-) TimerEvent: {}
+[5.547114] (-) TimerEvent: {}
+[5.649749] (-) TimerEvent: {}
+[5.688314] (dgps_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libdgps_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.749835] (-) TimerEvent: {}
+[5.767525] (dgps_msgs) StdoutLine: {'line': b'[ 63%] Built target dgps_msgs__rosidl_typesupport_cpp\n'}
+[5.850197] (-) TimerEvent: {}
+[5.951079] (-) TimerEvent: {}
+[6.018466] (dgps_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libdgps_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.053386] (-) TimerEvent: {}
+[6.153726] (-) TimerEvent: {}
+[6.179098] (dgps_msgs) StdoutLine: {'line': b'[ 65%] Built target dgps_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[6.195776] (dgps_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.253860] (-) TimerEvent: {}
+[6.354201] (-) TimerEvent: {}
+[6.454691] (-) TimerEvent: {}
+[6.555589] (-) TimerEvent: {}
+[6.656230] (-) TimerEvent: {}
+[6.756991] (-) TimerEvent: {}
+[6.854117] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.857212] (-) TimerEvent: {}
+[6.888753] (dgps_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dgps_msgs/msg/detail/gpfpd__type_support_c.cpp.o\x1b[0m\n'}
+[6.889832] (dgps_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dgps_msgs/msg/detail/gnvtg__type_support_c.cpp.o\x1b[0m\n'}
+[6.896130] (dgps_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/dgps_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dgps_msgs/msg/detail/gtimu__type_support_c.cpp.o\x1b[0m\n'}
+[6.957305] (-) TimerEvent: {}
+[7.057950] (-) TimerEvent: {}
+[7.158968] (-) TimerEvent: {}
+[7.259731] (-) TimerEvent: {}
+[7.360272] (-) TimerEvent: {}
+[7.460622] (-) TimerEvent: {}
+[7.465204] (dgps_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libdgps_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.560754] (-) TimerEvent: {}
+[7.591190] (dgps_msgs) StdoutLine: {'line': b'[ 76%] Built target dgps_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.605642] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs\x1b[0m\n'}
+[7.623764] (dgps_msgs) StdoutLine: {'line': b'[ 76%] Built target dgps_msgs\n'}
+[7.637579] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__py\x1b[0m\n'}
+[7.653171] (dgps_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.660869] (-) TimerEvent: {}
+[7.761141] (-) TimerEvent: {}
+[7.861525] (-) TimerEvent: {}
+[7.962116] (-) TimerEvent: {}
+[8.062598] (-) TimerEvent: {}
+[8.162944] (-) TimerEvent: {}
+[8.263321] (-) TimerEvent: {}
+[8.363782] (-) TimerEvent: {}
+[8.464300] (-) TimerEvent: {}
+[8.564836] (-) TimerEvent: {}
+[8.665459] (-) TimerEvent: {}
+[8.766002] (-) TimerEvent: {}
+[8.867002] (-) TimerEvent: {}
+[8.885552] (dgps_msgs) StdoutLine: {'line': b'[ 78%] Built target dgps_msgs__py\n'}
+[8.901718] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__python\x1b[0m\n'}
+[8.937483] (dgps_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__python.dir/rosidl_generator_py/dgps_msgs/msg/_gtimu_s.c.o\x1b[0m\n'}
+[8.937666] (dgps_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__python.dir/rosidl_generator_py/dgps_msgs/msg/_gnvtg_s.c.o\x1b[0m\n'}
+[8.938180] (dgps_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__python.dir/rosidl_generator_py/dgps_msgs/msg/_gpfpd_s.c.o\x1b[0m\n'}
+[8.967269] (-) TimerEvent: {}
+[9.068214] (-) TimerEvent: {}
+[9.073632] (dgps_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dgps_msgs/libdgps_msgs__python.so\x1b[0m\n'}
+[9.133041] (dgps_msgs) StdoutLine: {'line': b'[ 87%] Built target dgps_msgs__python\n'}
+[9.150797] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[9.151104] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[9.151215] (dgps_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[9.168358] (-) TimerEvent: {}
+[9.176022] (dgps_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dgps_msgs/_dgps_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.176893] (dgps_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dgps_msgs/_dgps_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.181435] (dgps_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/dgps_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dgps_msgs/_dgps_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.268571] (-) TimerEvent: {}
+[9.281244] (dgps_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/dgps_msgs/dgps_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.281982] (dgps_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dgps_msgs/dgps_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.325844] (dgps_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/dgps_msgs/dgps_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.339140] (dgps_msgs) StdoutLine: {'line': b'[100%] Built target dgps_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[9.368731] (-) TimerEvent: {}
+[9.377374] (dgps_msgs) StdoutLine: {'line': b'[100%] Built target dgps_msgs__rosidl_typesupport_c__pyext\n'}
+[9.378653] (dgps_msgs) StdoutLine: {'line': b'[100%] Built target dgps_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.397022] (dgps_msgs) CommandEnded: {'returncode': 0}
+[9.468923] (-) TimerEvent: {}
+[9.494080] (dgps_msgs) JobProgress: {'identifier': 'dgps_msgs', 'progress': 'install'}
+[9.513340] (dgps_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs'], 'cwd': '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'moonly'), ('SSH_AGENT_PID', '1571'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control/lib:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/lib:/home/moonly/px4_ros_com_ros2/install/boat_transform/lib:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/moonly'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1384'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19481'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/install:/home/moonly/桌面/My_PX4_projects/Workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'moonly'), ('http_proxy', 'http://127.0.0.1:20171'), ('JOURNAL_STREAM', '8:40173'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'moonly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1610,unix/Mi-laptop:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '784055bf81124d7d8b44a058c20ef751'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-640d86f438.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('PWD', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[9.524911] (dgps_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.525412] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/ament_index/resource_index/rosidl_interfaces/dgps_msgs\n'}
+[9.525558] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs\n'}
+[9.525639] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg\n'}
+[9.525703] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail\n'}
+[9.525759] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__functions.h\n'}
+[9.525814] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__functions.c\n'}
+[9.525869] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__functions.c\n'}
+[9.525929] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__struct.h\n'}
+[9.526019] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__type_support.h\n'}
+[9.526085] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__type_support.h\n'}
+[9.526143] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__functions.h\n'}
+[9.526209] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__struct.h\n'}
+[9.526273] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__functions.c\n'}
+[9.526353] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__functions.h\n'}
+[9.526408] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__struct.h\n'}
+[9.526476] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__type_support.h\n'}
+[9.526533] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/gpfpd.h\n'}
+[9.526588] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/gtimu.h\n'}
+[9.526645] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/gnvtg.h\n'}
+[9.526702] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.526839] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/environment/library_path.sh\n'}
+[9.526922] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/environment/library_path.dsv\n'}
+[9.526998] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_generator_c.so\n'}
+[9.527091] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_generator_c.so" to ""\n'}
+[9.527146] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs\n'}
+[9.527224] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg\n'}
+[9.527288] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail\n'}
+[9.527339] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527391] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527442] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__rosidl_typesupport_fastrtps_c.h\n'}
+[9.527489] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.527568] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[9.527666] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.527726] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs\n'}
+[9.527804] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg\n'}
+[9.527900] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail\n'}
+[9.527957] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/dds_fastrtps\n'}
+[9.528009] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.528105] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.528159] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.528212] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.528311] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.528535] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.528636] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs\n'}
+[9.528690] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg\n'}
+[9.528743] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail\n'}
+[9.528844] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__type_support.c\n'}
+[9.528900] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__rosidl_typesupport_introspection_c.h\n'}
+[9.528956] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__rosidl_typesupport_introspection_c.h\n'}
+[9.529045] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__type_support.c\n'}
+[9.529095] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__type_support.c\n'}
+[9.529167] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__rosidl_typesupport_introspection_c.h\n'}
+[9.529224] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.529283] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_introspection_c.so\n'}
+[9.529397] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.529485] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_c.so\n'}
+[9.529746] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_c.so" to ""\n'}
+[9.529832] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs\n'}
+[9.529919] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg\n'}
+[9.529977] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail\n'}
+[9.530056] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__struct.hpp\n'}
+[9.530129] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__traits.hpp\n'}
+[9.530301] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__builder.hpp\n'}
+[9.530414] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__traits.hpp\n'}
+[9.530505] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__struct.hpp\n'}
+[9.530818] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__type_support.hpp\n'}
+[9.530953] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__struct.hpp\n'}
+[9.531039] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__type_support.hpp\n'}
+[9.531192] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__builder.hpp\n'}
+[9.531271] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__builder.hpp\n'}
+[9.531440] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__type_support.hpp\n'}
+[9.531693] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__traits.hpp\n'}
+[9.531811] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/gpfpd.hpp\n'}
+[9.531902] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/gtimu.hpp\n'}
+[9.531989] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/gnvtg.hpp\n'}
+[9.532130] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.532288] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs\n'}
+[9.532374] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg\n'}
+[9.532450] (dgps_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail\n'}
+[9.532575] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.532682] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gnvtg__type_support.cpp\n'}
+[9.532772] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__type_support.cpp\n'}
+[9.532866] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__type_support.cpp\n'}
+[9.532959] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gpfpd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533111] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/include/dgps_msgs/msg/detail/gtimu__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.533249] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[9.533383] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.533596] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_cpp.so\n'}
+[9.533792] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[9.533980] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/environment/pythonpath.sh\n'}
+[9.534070] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/environment/pythonpath.dsv\n'}
+[9.534260] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/__init__.py\n'}
+[9.569010] (-) TimerEvent: {}
+[9.571901] (dgps_msgs) StdoutLine: {'line': b"Compiling '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/__init__.py'...\n"}
+[9.581435] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/msg\n'}
+[9.581983] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/msg/_gtimu_s.c\n'}
+[9.582211] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/msg/_gpfpd.py\n'}
+[9.582324] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/msg/__init__.py\n'}
+[9.582398] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/msg/_gnvtg_s.c\n'}
+[9.582471] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/msg/_gtimu.py\n'}
+[9.582538] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/msg/_gnvtg.py\n'}
+[9.582607] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/msg/_gpfpd_s.c\n'}
+[9.582721] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/dgps_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.583204] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/dgps_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.583397] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/dgps_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.583850] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/dgps_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.584025] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/dgps_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.584458] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages/dgps_msgs/dgps_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.584620] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__python.so\n'}
+[9.584968] (dgps_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/libdgps_msgs__python.so" to ""\n'}
+[9.585136] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/msg/Gnvtg.idl\n'}
+[9.585291] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/msg/Gpfpd.idl\n'}
+[9.585435] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/msg/Gtimu.idl\n'}
+[9.585583] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/msg/Gnvtg.msg\n'}
+[9.585729] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/msg/Gpfpd.msg\n'}
+[9.585870] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/msg/Gtimu.msg\n'}
+[9.586093] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/ament_index/resource_index/package_run_dependencies/dgps_msgs\n'}
+[9.586298] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/ament_index/resource_index/parent_prefix_path/dgps_msgs\n'}
+[9.586473] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/environment/ament_prefix_path.sh\n'}
+[9.586641] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/environment/ament_prefix_path.dsv\n'}
+[9.586798] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/environment/path.sh\n'}
+[9.586990] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/environment/path.dsv\n'}
+[9.587193] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/local_setup.bash\n'}
+[9.587302] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/local_setup.sh\n'}
+[9.587391] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/local_setup.zsh\n'}
+[9.587513] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/local_setup.dsv\n'}
+[9.587664] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/package.dsv\n'}
+[9.587875] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/ament_index/resource_index/packages/dgps_msgs\n'}
+[9.588102] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_generator_cExport.cmake\n'}
+[9.588263] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.588446] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.588527] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.588660] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_typesupport_cExport.cmake\n'}
+[9.588769] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.588888] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_generator_cppExport.cmake\n'}
+[9.589017] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.589135] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.589268] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[9.589467] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.589567] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.589679] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.589802] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.589896] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.590029] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.590109] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.590273] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.590466] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgsConfig.cmake\n'}
+[9.590534] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake/dgps_msgsConfig-version.cmake\n'}
+[9.590586] (dgps_msgs) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/package.xml\n'}
+[9.593105] (dgps_msgs) CommandEnded: {'returncode': 0}
+[9.669289] (-) TimerEvent: {}
+[9.727204] (dgps_msgs) JobEnded: {'identifier': 'dgps_msgs', 'rc': 0}
+[9.729513] (dgps_ros2) JobStarted: {'identifier': 'dgps_ros2'}
+[9.744223] (dgps_ros2) JobProgress: {'identifier': 'dgps_ros2', 'progress': 'cmake'}
+[9.744507] (dgps_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2', '-DCMAKE_INSTALL_PREFIX=/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2'], 'cwd': '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'moonly'), ('SSH_AGENT_PID', '1571'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control/lib:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/lib:/home/moonly/px4_ros_com_ros2/install/boat_transform/lib:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/moonly'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1384'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19481'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/install:/home/moonly/桌面/My_PX4_projects/Workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'moonly'), ('http_proxy', 'http://127.0.0.1:20171'), ('JOURNAL_STREAM', '8:40173'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'moonly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1610,unix/Mi-laptop:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '784055bf81124d7d8b44a058c20ef751'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-640d86f438.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('PWD', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[9.769480] (-) TimerEvent: {}
+[9.812167] (dgps_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[9.867388] (dgps_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[9.869570] (-) TimerEvent: {}
+[9.873065] (dgps_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[9.956678] (dgps_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[9.957407] (dgps_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.969851] (-) TimerEvent: {}
+[10.042245] (dgps_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.052501] (dgps_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.052921] (dgps_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.054832] (dgps_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[10.070072] (-) TimerEvent: {}
+[10.149113] (dgps_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[10.150007] (dgps_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.170272] (-) TimerEvent: {}
+[10.239637] (dgps_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.249527] (dgps_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.249761] (dgps_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.251852] (dgps_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[10.270441] (-) TimerEvent: {}
+[10.277198] (dgps_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[10.277368] (dgps_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.370638] (-) TimerEvent: {}
+[10.471335] (-) TimerEvent: {}
+[10.495510] (dgps_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.571466] (-) TimerEvent: {}
+[10.573811] (dgps_ros2) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[10.604026] (dgps_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.610910] (dgps_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[10.671670] (-) TimerEvent: {}
+[10.695482] (dgps_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[10.730861] (dgps_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[10.771838] (-) TimerEvent: {}
+[10.817183] (dgps_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.863163] (dgps_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[10.872066] (-) TimerEvent: {}
+[10.972485] (dgps_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.972861] (-) TimerEvent: {}
+[11.053913] (dgps_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[11.054160] (dgps_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[11.073079] (-) TimerEvent: {}
+[11.138420] (dgps_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[11.138855] (dgps_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[11.173253] (-) TimerEvent: {}
+[11.210577] (dgps_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[11.211033] (dgps_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[11.273527] (-) TimerEvent: {}
+[11.295085] (dgps_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[11.296050] (dgps_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[11.298418] (dgps_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[11.355276] (dgps_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[11.357224] (dgps_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.373700] (-) TimerEvent: {}
+[11.474385] (-) TimerEvent: {}
+[11.505674] (dgps_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[11.572192] (dgps_ros2) StdoutLine: {'line': b'-- Found dgps_msgs: 0.0.0 (/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/share/dgps_msgs/cmake)\n'}
+[11.574467] (-) TimerEvent: {}
+[11.610871] (dgps_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.611830] (dgps_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.612023] (dgps_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include\n'}
+[11.612120] (dgps_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.613106] (dgps_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.613200] (dgps_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.613575] (dgps_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.614096] (dgps_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.614565] (dgps_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[11.615531] (dgps_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.615622] (dgps_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.615981] (dgps_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.622252] (dgps_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.636522] (dgps_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[11.638261] (dgps_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2\n'}
+[11.647148] (dgps_ros2) CommandEnded: {'returncode': 0}
+[11.647885] (dgps_ros2) JobProgress: {'identifier': 'dgps_ros2', 'progress': 'build'}
+[11.648529] (dgps_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2', '--', '-j8', '-l8'], 'cwd': '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'moonly'), ('SSH_AGENT_PID', '1571'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control/lib:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/lib:/home/moonly/px4_ros_com_ros2/install/boat_transform/lib:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/moonly'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1384'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19481'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/install:/home/moonly/桌面/My_PX4_projects/Workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'moonly'), ('http_proxy', 'http://127.0.0.1:20171'), ('JOURNAL_STREAM', '8:40173'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'moonly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1610,unix/Mi-laptop:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '784055bf81124d7d8b44a058c20ef751'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-640d86f438.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('PWD', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[11.674782] (-) TimerEvent: {}
+[11.704348] (dgps_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_ros2_exe\x1b[0m\n'}
+[11.704652] (dgps_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dgps_ros2_node\x1b[0m\n'}
+[11.775050] (-) TimerEvent: {}
+[11.778139] (dgps_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/dgps_ros2_node.dir/src/dgps_ros2_node.cpp.o\x1b[0m\n'}
+[11.778447] (dgps_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/dgps_ros2_node.dir/src/serial.cpp.o\x1b[0m\n'}
+[11.779886] (dgps_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/dgps_ros2_node.dir/src/ntripclient.cpp.o\x1b[0m\n'}
+[11.785395] (dgps_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/dgps_ros2_exe.dir/rclcpp_components/node_main_dgps_ros2_exe.cpp.o\x1b[0m\n'}
+[11.875353] (-) TimerEvent: {}
+[11.978762] (-) TimerEvent: {}
+[12.062576] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/serial.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid printHexString(const char*, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.062850] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/serial.cpp:108:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kt\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.062946] (dgps_ros2) StderrLine: {'line': b'  108 |      char \x1b[01;35m\x1b[Kt\x1b[m\x1b[K[8];\n'}
+[12.063022] (dgps_ros2) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.078812] (-) TimerEvent: {}
+[12.104427] (dgps_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/serial.cpp:30\x1b[m\x1b[K:\n'}
+[12.105102] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/serial.h:\x1b[m\x1b[K At global scope:\n'}
+[12.105207] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/serial.h:55:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSerialProtocol SerialGetProtocol(const char*, int*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[12.105303] (dgps_ros2) StderrLine: {'line': b'   55 | static enum SerialProtocol \x1b[01;35m\x1b[KSerialGetProtocol\x1b[m\x1b[K(const char *buf, int *ressize)\n'}
+[12.105384] (dgps_ros2) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.105459] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/serial.h:33:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSerialParity SerialGetParity(const char*, int*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[12.105536] (dgps_ros2) StderrLine: {'line': b'   33 | static enum SerialParity \x1b[01;35m\x1b[KSerialGetParity\x1b[m\x1b[K(const char *buf, int *ressize)\n'}
+[12.105610] (dgps_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.178925] (-) TimerEvent: {}
+[12.279388] (-) TimerEvent: {}
+[12.380388] (-) TimerEvent: {}
+[12.480925] (-) TimerEvent: {}
+[12.581816] (-) TimerEvent: {}
+[12.682866] (-) TimerEvent: {}
+[12.767450] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid ntrserial_client(Args*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.767858] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:595:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kj\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.768100] (dgps_ros2) StderrLine: {'line': b'  595 |       int \x1b[01;35m\x1b[Kj\x1b[m\x1b[K = 0;\n'}
+[12.768233] (dgps_ros2) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.783267] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid ntrip_client(Args*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.783916] (-) TimerEvent: {}
+[12.784322] (dgps_ros2) StderrLine: {'line': b"\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:775:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 changes value from \xe2\x80\x98\x1b[01m\x1b[K128\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K'\\37777777600'\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Woverflow\x1b[m\x1b[K]\n"}
+[12.784580] (dgps_ros2) StderrLine: {'line': b'  775 |           rtpbuf[0] = \x1b[01;35m\x1b[K(2<<6)\x1b[m\x1b[K;\n'}
+[12.784677] (dgps_ros2) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[12.786848] (dgps_ros2) StderrLine: {'line': b"\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:1040:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 changes value from \xe2\x80\x98\x1b[01m\x1b[K128\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K'\\37777777600'\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Woverflow\x1b[m\x1b[K]\n"}
+[12.787139] (dgps_ros2) StderrLine: {'line': b' 1040 |                         rtpbuf[0] = \x1b[01;35m\x1b[K(2<<6)\x1b[m\x1b[K;\n'}
+[12.787349] (dgps_ros2) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[12.787452] (dgps_ros2) StderrLine: {'line': b"\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:1074:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 changes value from \xe2\x80\x98\x1b[01m\x1b[K128\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K'\\37777777600'\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Woverflow\x1b[m\x1b[K]\n"}
+[12.787559] (dgps_ros2) StderrLine: {'line': b' 1074 |                 rtpbuf[0] = \x1b[01;35m\x1b[K(2<<6)\x1b[m\x1b[K;\n'}
+[12.787647] (dgps_ros2) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[12.790296] (dgps_ros2) StderrLine: {'line': b"\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:1239:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 changes value from \xe2\x80\x98\x1b[01m\x1b[K128\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K'\\37777777600'\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Woverflow\x1b[m\x1b[K]\n"}
+[12.790477] (dgps_ros2) StderrLine: {'line': b' 1239 |                 rtpbuffer[0] = \x1b[01;35m\x1b[K(2<<6)\x1b[m\x1b[K;\n'}
+[12.790573] (dgps_ros2) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~^~~~\x1b[m\x1b[K\n'}
+[12.803066] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:626:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Knmeabuffer\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.803499] (dgps_ros2) StderrLine: {'line': b'  626 |     char \x1b[01;35m\x1b[Knmeabuffer\x1b[m\x1b[K[MAXDATASIZE] = "$GPGGA,"; /* our start string */\n'}
+[12.803641] (dgps_ros2) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.803869] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:627:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Knmeabufpos\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.803971] (dgps_ros2) StderrLine: {'line': b'  627 |     size_t \x1b[01;35m\x1b[Knmeabufpos\x1b[m\x1b[K = 0;\n'}
+[12.804050] (dgps_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.804126] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:628:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Knmeastarpos\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.804216] (dgps_ros2) StderrLine: {'line': b'  628 |     size_t \x1b[01;35m\x1b[Knmeastarpos\x1b[m\x1b[K = 0;\n'}
+[12.804293] (dgps_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.884166] (-) TimerEvent: {}
+[12.949859] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint getargs(int, char**, Args*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.950549] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:344:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[12.950699] (dgps_ros2) StderrLine: {'line': b'  344 |       \x1b[01;35m\x1b[Kfprintf(stderr, "Option -d or --data is deprecated. Use -m instead.\\n")\x1b[m\x1b[K;\n'}
+[12.950798] (dgps_ros2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.950861] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:345:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[12.950933] (dgps_ros2) StderrLine: {'line': b"  345 |     \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 'm':\n"}
+[12.950992] (dgps_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.958384] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid ntrip_client(Args*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.958799] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:1619:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis statement may fall through [\x1b[01;35m\x1b[K-Wimplicit-fallthrough=\x1b[m\x1b[K]\n'}
+[12.958912] (dgps_ros2) StderrLine: {'line': b' 1619 |                       \x1b[01;35m\x1b[K++chunkymode\x1b[m\x1b[K; /* no break */\n'}
+[12.958992] (dgps_ros2) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.959072] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:1620:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Khere\n'}
+[12.959158] (dgps_ros2) StderrLine: {'line': b' 1620 |                     \x1b[01;36m\x1b[Kcase\x1b[m\x1b[K 2: /* during reading number */\n'}
+[12.959234] (dgps_ros2) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.972803] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:\x1b[m\x1b[K At global scope:\n'}
+[12.973420] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:304:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kint getargs(int, char**, Args*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[12.973579] (dgps_ros2) StderrLine: {'line': b'  304 | static int \x1b[01;35m\x1b[Kgetargs\x1b[m\x1b[K(int argc, char **argv, struct Args *args)\n'}
+[12.973670] (dgps_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[12.973764] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:139:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sighandler_int(int)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[12.973850] (dgps_ros2) StderrLine: {'line': b'  139 | static void \x1b[01;35m\x1b[Ksighandler_int\x1b[m\x1b[K(int sig __attribute__((__unused__)))\n'}
+[12.973930] (dgps_ros2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.974019] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/ntripclient.cpp:125:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid sighandler_alarm(int)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[12.974106] (dgps_ros2) StderrLine: {'line': b'  125 | static __attribute__ ((noreturn)) void \x1b[01;35m\x1b[Ksighandler_alarm\x1b[m\x1b[K(\n'}
+[12.974207] (dgps_ros2) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.984411] (-) TimerEvent: {}
+[13.085231] (-) TimerEvent: {}
+[13.185758] (-) TimerEvent: {}
+[13.286509] (-) TimerEvent: {}
+[13.387521] (-) TimerEvent: {}
+[13.488152] (-) TimerEvent: {}
+[13.588846] (-) TimerEvent: {}
+[13.689646] (-) TimerEvent: {}
+[13.790242] (-) TimerEvent: {}
+[13.890586] (-) TimerEvent: {}
+[13.992356] (-) TimerEvent: {}
+[14.093458] (-) TimerEvent: {}
+[14.193924] (-) TimerEvent: {}
+[14.294295] (-) TimerEvent: {}
+[14.394666] (-) TimerEvent: {}
+[14.495043] (-) TimerEvent: {}
+[14.595340] (-) TimerEvent: {}
+[14.695666] (-) TimerEvent: {}
+[14.795969] (-) TimerEvent: {}
+[14.896402] (-) TimerEvent: {}
+[14.965110] (dgps_ros2) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable dgps_ros2_exe\x1b[0m\n'}
+[14.996499] (-) TimerEvent: {}
+[15.096789] (-) TimerEvent: {}
+[15.156951] (dgps_ros2) StdoutLine: {'line': b'[ 83%] Built target dgps_ros2_exe\n'}
+[15.196985] (-) TimerEvent: {}
+[15.297353] (-) TimerEvent: {}
+[15.397778] (-) TimerEvent: {}
+[15.498500] (-) TimerEvent: {}
+[15.599282] (-) TimerEvent: {}
+[15.700027] (-) TimerEvent: {}
+[15.800678] (-) TimerEvent: {}
+[15.901264] (-) TimerEvent: {}
+[16.001682] (-) TimerEvent: {}
+[16.102380] (-) TimerEvent: {}
+[16.203336] (-) TimerEvent: {}
+[16.304112] (-) TimerEvent: {}
+[16.404763] (-) TimerEvent: {}
+[16.505499] (-) TimerEvent: {}
+[16.541999] (dgps_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/ntrip.h:5\x1b[m\x1b[K,\n'}
+[16.547828] (dgps_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/src/dgps_ros2_node.cpp:6\x1b[m\x1b[K:\n'}
+[16.547949] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/serial.h:55:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSerialProtocol SerialGetProtocol(const char*, int*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[16.548015] (dgps_ros2) StderrLine: {'line': b'   55 | static enum SerialProtocol \x1b[01;35m\x1b[KSerialGetProtocol\x1b[m\x1b[K(const char *buf, int *ressize)\n'}
+[16.548069] (dgps_ros2) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.548123] (dgps_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/dgps_ros2/serial.h:33:26:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSerialParity SerialGetParity(const char*, int*)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-function\x1b[m\x1b[K]\n'}
+[16.548209] (dgps_ros2) StderrLine: {'line': b'   33 | static enum SerialParity \x1b[01;35m\x1b[KSerialGetParity\x1b[m\x1b[K(const char *buf, int *ressize)\n'}
+[16.548270] (dgps_ros2) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.605600] (-) TimerEvent: {}
+[16.705929] (-) TimerEvent: {}
+[16.806477] (-) TimerEvent: {}
+[16.907254] (-) TimerEvent: {}
+[17.007954] (-) TimerEvent: {}
+[17.108411] (-) TimerEvent: {}
+[17.208769] (-) TimerEvent: {}
+[17.309234] (-) TimerEvent: {}
+[17.409865] (-) TimerEvent: {}
+[17.510326] (-) TimerEvent: {}
+[17.610832] (-) TimerEvent: {}
+[17.711467] (-) TimerEvent: {}
+[17.812094] (-) TimerEvent: {}
+[17.912460] (-) TimerEvent: {}
+[18.012896] (-) TimerEvent: {}
+[18.113385] (-) TimerEvent: {}
+[18.213921] (-) TimerEvent: {}
+[18.314840] (-) TimerEvent: {}
+[18.415394] (-) TimerEvent: {}
+[18.515938] (-) TimerEvent: {}
+[18.616362] (-) TimerEvent: {}
+[18.716685] (-) TimerEvent: {}
+[18.817271] (-) TimerEvent: {}
+[18.917796] (-) TimerEvent: {}
+[19.018299] (-) TimerEvent: {}
+[19.119248] (-) TimerEvent: {}
+[19.220094] (-) TimerEvent: {}
+[19.320780] (-) TimerEvent: {}
+[19.421335] (-) TimerEvent: {}
+[19.521647] (-) TimerEvent: {}
+[19.622292] (-) TimerEvent: {}
+[19.722797] (-) TimerEvent: {}
+[19.823380] (-) TimerEvent: {}
+[19.924167] (-) TimerEvent: {}
+[20.024603] (-) TimerEvent: {}
+[20.124955] (-) TimerEvent: {}
+[20.225299] (-) TimerEvent: {}
+[20.325903] (-) TimerEvent: {}
+[20.426659] (-) TimerEvent: {}
+[20.527208] (-) TimerEvent: {}
+[20.627765] (-) TimerEvent: {}
+[20.728387] (-) TimerEvent: {}
+[20.742191] (dgps_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdgps_ros2_node.so\x1b[0m\n'}
+[20.828541] (-) TimerEvent: {}
+[20.929288] (-) TimerEvent: {}
+[21.030015] (-) TimerEvent: {}
+[21.130700] (-) TimerEvent: {}
+[21.231658] (-) TimerEvent: {}
+[21.247054] (dgps_ros2) StdoutLine: {'line': b'[100%] Built target dgps_ros2_node\n'}
+[21.267718] (dgps_ros2) CommandEnded: {'returncode': 0}
+[21.304865] (dgps_ros2) JobProgress: {'identifier': 'dgps_ros2', 'progress': 'install'}
+[21.305220] (dgps_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2'], 'cwd': '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'moonly'), ('SSH_AGENT_PID', '1571'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control/lib:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/lib:/home/moonly/px4_ros_com_ros2/install/boat_transform/lib:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/moonly'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.80.0'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1384'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '19481'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/install:/home/moonly/桌面/My_PX4_projects/Workspace/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'moonly'), ('http_proxy', 'http://127.0.0.1:20171'), ('JOURNAL_STREAM', '8:40173'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'moonly'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/opt/gradle/gradle-6.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1610,unix/Mi-laptop:/tmp/.ICE-unix/1610'), ('INVOCATION_ID', '784055bf81124d7d8b44a058c20ef751'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-640d86f438.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('PWD', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/build/dgps_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=3ebb8a6d60b6205e23a3bac864b0f0a9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs/lib/python3.8/site-packages:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_msgs:/home/moonly/桌面/My_PX4_projects/Workspace/install/keyboard_control:/home/moonly/桌面/My_PX4_projects/Workspace/install/auto_cruise:/home/moonly/桌面/My_PX4_projects/Workspace/install/KeyboardControl:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/opt/ros/foxy')]), 'shell': False}
+[21.318092] (dgps_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.318439] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/lib/dgps_ros2/dgps_ros2_exe\n'}
+[21.318640] (dgps_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/lib/dgps_ros2/dgps_ros2_exe" to ""\n'}
+[21.318716] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/lib/libdgps_ros2_node.so\n'}
+[21.323767] (dgps_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/lib/libdgps_ros2_node.so" to ""\n'}
+[21.323906] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/include\n'}
+[21.323960] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/include/dgps_ros2\n'}
+[21.324038] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/include/dgps_ros2/serial.h\n'}
+[21.324106] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/include/dgps_ros2/ntrip.h\n'}
+[21.324173] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/launch\n'}
+[21.324219] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/launch/dgps_ros2.launch.py\n'}
+[21.324285] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/library_path.sh\n'}
+[21.324356] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/library_path.dsv\n'}
+[21.324492] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/ament_index/resource_index/package_run_dependencies/dgps_ros2\n'}
+[21.324613] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/ament_index/resource_index/parent_prefix_path/dgps_ros2\n'}
+[21.324703] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/ament_prefix_path.sh\n'}
+[21.324784] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/ament_prefix_path.dsv\n'}
+[21.324876] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/path.sh\n'}
+[21.324956] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/environment/path.dsv\n'}
+[21.325035] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/local_setup.bash\n'}
+[21.325119] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/local_setup.sh\n'}
+[21.325200] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/local_setup.zsh\n'}
+[21.325283] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/local_setup.dsv\n'}
+[21.325361] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/package.dsv\n'}
+[21.325475] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/ament_index/resource_index/packages/dgps_ros2\n'}
+[21.325589] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/ament_index/resource_index/rclcpp_components/dgps_ros2\n'}
+[21.325694] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.325780] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.325861] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.325950] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/dgps_ros2Config.cmake\n'}
+[21.326013] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/cmake/dgps_ros2Config-version.cmake\n'}
+[21.326094] (dgps_ros2) StdoutLine: {'line': b'-- Installing: /home/moonly/px4_ros_com_ros2/src/dgps_ros2/install/dgps_ros2/share/dgps_ros2/package.xml\n'}
+[21.328365] (dgps_ros2) CommandEnded: {'returncode': 0}
+[21.331695] (-) TimerEvent: {}
+[21.402385] (dgps_ros2) JobEnded: {'identifier': 'dgps_ros2', 'rc': 0}
+[21.404442] (-) EventReactorShutdown: {}

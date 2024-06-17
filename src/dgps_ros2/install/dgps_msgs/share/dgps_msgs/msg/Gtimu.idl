@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dgps_msgs/msg/Gtimu.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dgps_msgs {
+  module msg {
+    struct Gtimu {
+      @verbatim (language="comment", text=
+        " standard ROS message header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " $GTIMU...")
+      string gtimu;
+
+      @verbatim (language="comment", text=
+        "陀螺仪 X 轴角速率，单位（度/秒）")
+      double gyro_x;
+
+      @verbatim (language="comment", text=
+        "陀螺仪 Y 轴角速率，单位（度/秒）")
+      double gyro_y;
+
+      @verbatim (language="comment", text=
+        "陀螺仪 Z 轴角速率，单位（度/秒）")
+      double gyro_z;
+
+      @verbatim (language="comment", text=
+        "加速度计 X 轴加速度，单位为（g）")
+      double acc_x;
+
+      @verbatim (language="comment", text=
+        "加速度计 Y 轴加速度，单位为（g）")
+      double acc_y;
+
+      @verbatim (language="comment", text=
+        "加速度计 Z 轴加速度，单位为（g）")
+      double acc_z;
+
+      @verbatim (language="comment", text=
+        "温度，单位为摄氏度")
+      double tpr;
+    };
+  };
+};

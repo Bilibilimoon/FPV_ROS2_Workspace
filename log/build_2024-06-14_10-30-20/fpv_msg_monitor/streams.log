@@ -1,0 +1,37 @@
+[0.064s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor -- -j8 -l8
+[0.116s] [35m[1mScanning dependencies of target fpv_msg_monitor[0m
+[0.182s] [ 50%] [32mBuilding CXX object CMakeFiles/fpv_msg_monitor.dir/src/Fpv_msg_monitor.cpp.o[0m
+[1.849s] [01m[K/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor/src/Fpv_msg_monitor.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.849s] [01m[K/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor/src/Fpv_msg_monitor.cpp:57:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_wall_timer(std::chrono::milliseconds, void (&)())[m[K’
+[1.850s]    57 |   auto timer = rclcpp::create_wall_timer(std::chrono::milliseconds(1000), timerCallback[01;31m[K)[m[K;
+[1.850s]       |                                                                                        [01;31m[K^[m[K
+[1.850s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:41[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.850s]                  from [01m[K/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor/src/Fpv_msg_monitor.cpp:41[m[K:
+[1.850s] [01m[K/opt/ros/foxy/include/rclcpp/create_timer.hpp:90:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr, rclcpp::node_interfaces::NodeBaseInterface*, rclcpp::node_interfaces::NodeTimersInterface*)[m[K’
+[1.850s]    90 | [01;36m[Kcreate_wall_timer[m[K(
+[1.850s]       | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[1.850s] [01m[K/opt/ros/foxy/include/rclcpp/create_timer.hpp:90:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.850s] [01m[K/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor/src/Fpv_msg_monitor.cpp:57:88:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+[1.850s]    57 |   auto timer = rclcpp::create_wall_timer(std::chrono::milliseconds(1000), timerCallback[01;36m[K)[m[K;
+[1.850s]       |                                                                                        [01;36m[K^[m[K
+[1.850s] [01m[K/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor/src/Fpv_msg_monitor.cpp:59:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin()[m[K’
+[1.850s]    59 |   rclcpp::spin([01;31m[K)[m[K;
+[1.850s]       |                [01;31m[K^[m[K
+[1.850s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.850s]                  from [01m[K/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor/src/Fpv_msg_monitor.cpp:41[m[K:
+[1.850s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[1.850s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[1.850s]       | [01;36m[K^~~~[m[K
+[1.850s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.850s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[1.851s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[1.851s]       | [01;36m[K^~~~[m[K
+[1.851s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[2.582s] make[2]: *** [CMakeFiles/fpv_msg_monitor.dir/build.make:63：CMakeFiles/fpv_msg_monitor.dir/src/Fpv_msg_monitor.cpp.o] 错误 1
+[2.582s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/fpv_msg_monitor.dir/all] 错误 2
+[2.582s] make: *** [Makefile:141：all] 错误 2
+[2.584s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor -- -j8 -l8

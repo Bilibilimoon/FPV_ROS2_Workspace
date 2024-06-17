@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/moonly/px4_ros_com_ros2/install/px4_ros_com/include/**",
+        "/home/moonly/px4_ros_com_ros2/install/px4_msgs/include/**",
+        "/home/moonly/px4_ros_com_ros2/install/dgps_ros2/include/**",
+        "/home/moonly/px4_ros_com_ros2/install/dgps_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/moonly/px4_ros_com_ros2/src/dgps_ros2/dgps_ros2/include/**",
+        "/home/moonly/px4_ros_com_ros2/src/px4_ros_com/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

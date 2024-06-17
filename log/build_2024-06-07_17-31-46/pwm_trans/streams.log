@@ -1,0 +1,26 @@
+[0.121s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/pwm_trans -- -j8 -l8
+[0.397s] [35m[1mScanning dependencies of target pwm_trans[0m
+[0.700s] [ 50%] [32mBuilding CXX object CMakeFiles/pwm_trans.dir/src/Pwm_trans.cpp.o[0m
+[5.868s] [100%] [32m[1mLinking CXX executable pwm_trans[0m
+[6.510s] [100%] Built target pwm_trans
+[6.549s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/pwm_trans -- -j8 -l8
+[6.607s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/pwm_trans
+[6.619s] -- Install configuration: ""
+[6.676s] -- Installing: /home/moonly/fpv_ros2_workspace/install/pwm_trans/lib/pwm_trans/pwm_trans
+[6.682s] -- Set runtime path of "/home/moonly/fpv_ros2_workspace/install/pwm_trans/lib/pwm_trans/pwm_trans" to ""
+[6.687s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/ament_index/resource_index/package_run_dependencies/pwm_trans
+[6.695s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/ament_index/resource_index/parent_prefix_path/pwm_trans
+[6.696s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/environment/ament_prefix_path.sh
+[6.696s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/environment/ament_prefix_path.dsv
+[6.696s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/environment/path.sh
+[6.697s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/environment/path.dsv
+[6.700s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/local_setup.bash
+[6.702s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/local_setup.sh
+[6.703s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/local_setup.zsh
+[6.705s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/local_setup.dsv
+[6.707s] -- Installing: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.dsv
+[6.708s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/ament_index/resource_index/packages/pwm_trans
+[6.722s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/cmake/pwm_transConfig.cmake
+[6.725s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/cmake/pwm_transConfig-version.cmake
+[6.727s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.xml
+[6.742s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/pwm_trans

@@ -1,0 +1,53 @@
+[0.032s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/moonly/fpv_ros2_workspace/src/position_trans -DCMAKE_INSTALL_PREFIX=/home/moonly/fpv_ros2_workspace/install/position_trans
+[0.124s] -- The C compiler identification is GNU 9.4.0
+[0.251s] -- The CXX compiler identification is GNU 9.4.0
+[0.271s] -- Check for working C compiler: /usr/bin/cc
+[0.403s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.411s] -- Detecting C compiler ABI info
+[0.621s] -- Detecting C compiler ABI info - done
+[0.650s] -- Detecting C compile features
+[0.650s] -- Detecting C compile features - done
+[0.656s] -- Check for working CXX compiler: /usr/bin/c++
+[0.987s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.989s] -- Detecting CXX compiler ABI info
+[1.196s] -- Detecting CXX compiler ABI info - done
+[1.222s] -- Detecting CXX compile features
+[1.223s] -- Detecting CXX compile features - done
+[1.225s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.289s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.289s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.980s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.263s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.265s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.266s] -- Configured cppcheck include dirs: 
+[2.266s] -- Configured cppcheck exclude dirs and/or files: 
+[2.267s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.267s] -- Configured cpplint exclude dirs and/or files: 
+[2.268s] -- Added test 'lint_cmake' to check CMake code style
+[2.269s] -- Added test 'uncrustify' to check C / C++ code style
+[2.269s] -- Configured uncrustify additional arguments: 
+[2.270s] -- Added test 'xmllint' to check XML markup files
+[2.273s] -- Configuring done
+[2.280s] -- Generating done
+[2.293s] -- Build files have been written to: /home/moonly/fpv_ros2_workspace/build/position_trans
+[2.316s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/moonly/fpv_ros2_workspace/src/position_trans -DCMAKE_INSTALL_PREFIX=/home/moonly/fpv_ros2_workspace/install/position_trans
+[2.318s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8
+[2.400s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8
+[2.472s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/position_trans
+[2.510s] -- Install configuration: ""
+[2.510s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/package_run_dependencies/position_trans
+[2.510s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/parent_prefix_path/position_trans
+[2.511s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.sh
+[2.511s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.dsv
+[2.511s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.sh
+[2.511s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.dsv
+[2.511s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.bash
+[2.520s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.sh
+[2.522s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.zsh
+[2.524s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.dsv
+[2.526s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.dsv
+[2.526s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/packages/position_trans
+[2.526s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig.cmake
+[2.526s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig-version.cmake
+[2.526s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.xml
+[2.528s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/position_trans

@@ -1,0 +1,72 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from dgps_msgs/msg/Gpfpd.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module dgps_msgs {
+  module msg {
+    struct Gpfpd {
+      @verbatim (language="comment", text=
+        " standard ROS message header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " $GPFPD...")
+      string gpfpd;
+
+      @verbatim (language="comment", text=
+        "偏航角（0～359.99）")
+      double heading;
+
+      @verbatim (language="comment", text=
+        "俯仰角（-90～90）")
+      double pitch;
+
+      @verbatim (language="comment", text=
+        "横滚角（-180～180）")
+      double roll;
+
+      @verbatim (language="comment", text=
+        "纬度（-90～90）")
+      double lattitude;
+
+      @verbatim (language="comment", text=
+        "经度（-180～180）")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        "高度，单位（米）")
+      double altitude;
+
+      @verbatim (language="comment", text=
+        "东向速度，单位（米/秒）")
+      double velocity_east;
+
+      @verbatim (language="comment", text=
+        "北向速度，单位（米/秒）")
+      double velocity_north;
+
+      @verbatim (language="comment", text=
+        "天向速度，单位（米/秒）")
+      double velocity_up;
+
+      @verbatim (language="comment", text=
+        "基线长度，单位（米）")
+      double baseline;
+
+      @verbatim (language="comment", text=
+        "天线 1 卫星数")
+      uint8 nsv1;
+
+      @verbatim (language="comment", text=
+        "天线 2 卫星数")
+      uint8 nsv2;
+
+      @verbatim (language="comment", text=
+        "系统状态：0：初始化  1：粗对准  2：精对准  3：GPS 定位  4：GPS 定向  5：RTK 定位" "\n"
+        "8：纯惯性  9：零速校正  B：差分定向  C：动态对准")
+      uint8 status;
+    };
+  };
+};

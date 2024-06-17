@@ -1,0 +1,8 @@
+{
+  "package_name": "dgps_msgs",
+  "non_idl_tuples": [
+    "/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_msgs:msg/Gnvtg.msg",
+    "/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_msgs:msg/Gpfpd.msg",
+    "/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_msgs:msg/Gtimu.msg"
+  ]
+}

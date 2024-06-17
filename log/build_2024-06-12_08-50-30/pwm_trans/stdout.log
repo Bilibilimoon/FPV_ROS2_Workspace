@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target pwm_trans[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pwm_trans.dir/src/Pwm_trans.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pwm_trans[0m
+[100%] Built target pwm_trans

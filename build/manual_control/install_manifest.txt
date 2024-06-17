@@ -1,0 +1,16 @@
+/home/moonly/fpv_ros2_workspace/install/manual_control/lib/manual_control/manual_control
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/ament_index/resource_index/package_run_dependencies/manual_control
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/ament_index/resource_index/parent_prefix_path/manual_control
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/environment/ament_prefix_path.sh
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/environment/ament_prefix_path.dsv
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/environment/path.sh
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/environment/path.dsv
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/local_setup.bash
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/local_setup.sh
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/local_setup.zsh
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/local_setup.dsv
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.dsv
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/ament_index/resource_index/packages/manual_control
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/cmake/manual_controlConfig.cmake
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/cmake/manual_controlConfig-version.cmake
+/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.xml

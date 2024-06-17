@@ -1,0 +1,142 @@
+[0.070s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msgs -- -j8 -l8
+[0.114s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.143s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.144s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.399s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.429s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.431s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.568s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.569s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.699s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.803s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.892s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.897s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.919s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.919s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.939s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.939s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.939s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.949s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.960s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.961s] -- Added test 'lint_cmake' to check CMake code style
+[0.962s] -- Added test 'xmllint' to check XML markup files
+[0.965s] -- Configuring done
+[0.988s] -- Generating done
+[0.990s] -- Build files have been written to: /home/moonly/fpv_ros2_workspace/build/fpv_msgs
+[1.024s] [  9%] Built target fpv_msgs__cpp
+[1.024s] [ 12%] Built target fpv_msgs__rosidl_generator_c
+[1.045s] [ 38%] Built target fpv_msgs__rosidl_typesupport_introspection_c
+[1.046s] [ 41%] Built target fpv_msgs__rosidl_typesupport_introspection_cpp
+[1.046s] [ 41%] Built target fpv_msgs__rosidl_typesupport_c
+[1.064s] [ 51%] Built target fpv_msgs__rosidl_typesupport_cpp
+[1.066s] [ 61%] Built target fpv_msgs__rosidl_typesupport_fastrtps_cpp
+[1.084s] [ 70%] Built target fpv_msgs__rosidl_typesupport_fastrtps_c
+[1.100s] [ 70%] Built target fpv_msgs
+[1.120s] [ 74%] Built target fpv_msgs__py
+[1.143s] [ 80%] Built target fpv_msgs__python
+[1.165s] [100%] Built target fpv_msgs__rosidl_typesupport_introspection_c__pyext
+[1.165s] [100%] Built target fpv_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.165s] [100%] Built target fpv_msgs__rosidl_typesupport_c__pyext
+[1.173s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msgs -- -j8 -l8
+[1.237s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/fpv_msgs
+[1.247s] -- Install configuration: ""
+[1.247s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/ament_index/resource_index/rosidl_interfaces/fpv_msgs
+[1.247s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs
+[1.247s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg
+[1.247s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail
+[1.247s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__functions.c
+[1.247s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__struct.h
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__type_support.h
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__functions.h
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/moonly_fpv.h
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/environment/library_path.sh
+[1.248s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/environment/library_path.dsv
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/libfpv_msgs__rosidl_generator_c.so
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__rosidl_typesupport_fastrtps_c.h
+[1.248s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.249s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/libfpv_msgs__rosidl_typesupport_fastrtps_c.so
+[1.249s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs
+[1.249s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg
+[1.249s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail
+[1.249s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/dds_fastrtps
+[1.249s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__rosidl_typesupport_fastrtps_cpp.hpp
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/libfpv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__type_support.c
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__rosidl_typesupport_introspection_c.h
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/libfpv_msgs__rosidl_typesupport_introspection_c.so
+[1.250s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/libfpv_msgs__rosidl_typesupport_c.so
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/moonly_fpv.hpp
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__struct.hpp
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__builder.hpp
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__traits.hpp
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__type_support.hpp
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg
+[1.251s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail
+[1.252s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__type_support.cpp
+[1.252s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/include/fpv_msgs/msg/detail/moonly_fpv__rosidl_typesupport_introspection_cpp.hpp
+[1.252s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/libfpv_msgs__rosidl_typesupport_introspection_cpp.so
+[1.252s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/libfpv_msgs__rosidl_typesupport_cpp.so
+[1.252s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/environment/pythonpath.sh
+[1.252s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/environment/pythonpath.dsv
+[1.252s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/__init__.py
+[1.281s] Compiling '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/__init__.py'...
+[1.285s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/msg
+[1.285s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/msg/_moonly_fpv.py
+[1.285s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/msg/__init__.py
+[1.285s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/msg/_moonly_fpv_s.c
+[1.286s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/fpv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.286s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/fpv_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.287s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages/fpv_msgs/fpv_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.287s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/libfpv_msgs__python.so
+[1.287s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/msg/MoonlyFpv.idl
+[1.287s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/msg/MoonlyFpv.msg
+[1.288s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/ament_index/resource_index/package_run_dependencies/fpv_msgs
+[1.288s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/ament_index/resource_index/parent_prefix_path/fpv_msgs
+[1.288s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/environment/ament_prefix_path.sh
+[1.288s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/environment/ament_prefix_path.dsv
+[1.288s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/environment/path.sh
+[1.288s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/environment/path.dsv
+[1.288s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/local_setup.bash
+[1.288s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/local_setup.sh
+[1.288s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/local_setup.zsh
+[1.288s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/local_setup.dsv
+[1.289s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.dsv
+[1.289s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/ament_index/resource_index/packages/fpv_msgs
+[1.289s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_generator_cExport.cmake
+[1.289s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.289s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.289s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_typesupport_cExport.cmake
+[1.289s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.290s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_generator_cppExport.cmake
+[1.290s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.290s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.290s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_typesupport_cppExport.cmake
+[1.291s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/rosidl_cmake-extras.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgsConfig.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake/fpv_msgsConfig-version.cmake
+[1.291s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.xml
+[1.294s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/fpv_msgs

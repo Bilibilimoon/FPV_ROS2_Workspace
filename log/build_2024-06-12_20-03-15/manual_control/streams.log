@@ -1,0 +1,34 @@
+[0.077s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/manual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/manual_control -- -j8 -l8
+[0.160s] [35m[1mScanning dependencies of target manual_control[0m
+[0.243s] [ 50%] [32mBuilding CXX object CMakeFiles/manual_control.dir/src/Manual_control.cpp.o[0m
+[1.779s] In file included from [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/src/Manual_control.cpp:3[m[K:
+[1.779s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:[m[K In function ‘[01m[Kvoid print_info()[m[K’:
+[1.779s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:42:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kstop_control[m[K’ was not declared in this scope
+[1.779s]    42 |     if([01;31m[Kstop_control[m[K == -1 && control_model == -1)
+[1.779s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[1.780s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:42:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kcontrol_model[m[K’ was not declared in this scope
+[1.781s]    42 |     if(stop_control == -1 && [01;31m[Kcontrol_model[m[K == -1)
+[1.781s]       |                              [01;31m[K^~~~~~~~~~~~~[m[K
+[1.781s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:44:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kthr[m[K’ was not declared in this scope
+[1.781s]    44 |         printf("油门:%.1f 偏航:%.1f 俯仰:%.1f 横滚:%.1f\n", [01;31m[Kthr[m[K, yaw, pit, rol);
+[1.781s]       |                                                                     [01;31m[K^~~[m[K
+[1.782s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:44:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw[m[K’ was not declared in this scope
+[1.782s]    44 |         printf("油门:%.1f 偏航:%.1f 俯仰:%.1f 横滚:%.1f\n", thr, [01;31m[Kyaw[m[K, pit, rol);
+[1.782s]       |                                                                          [01;31m[K^~~[m[K
+[1.783s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:44:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kpit[m[K’ was not declared in this scope
+[1.783s]    44 |         printf("油门:%.1f 偏航:%.1f 俯仰:%.1f 横滚:%.1f\n", thr, yaw, [01;31m[Kpit[m[K, rol);
+[1.783s]       |                                                                               [01;31m[K^~~[m[K
+[1.784s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:44:84:[m[K [01;31m[Kerror: [m[K‘[01m[Krol[m[K’ was not declared in this scope
+[1.784s]    44 |         printf("油门:%.1f 偏航:%.1f 俯仰:%.1f 横滚:%.1f\n", thr, yaw, pit, [01;31m[Krol[m[K);
+[1.784s]       |                                                                                    [01;31m[K^~~[m[K
+[1.785s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:45:57:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear[m[K’ was not declared in this scope; did you mean ‘[01m[Klinkat[m[K’?
+[1.785s]    45 |         printf("前进速度:%.1f 转向速度:%.1f\n", [01;31m[Klinear[m[K, angular);
+[1.785s]       |                                                         [01;31m[K^~~~~~[m[K
+[1.785s]       |                                                         [32m[Klinkat[m[K
+[1.786s] [01m[K/home/moonly/fpv_ros2_workspace/src/manual_control/include/Manual_control.hpp:45:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular[m[K’ was not declared in this scope
+[1.786s]    45 |         printf("前进速度:%.1f 转向速度:%.1f\n", linear, [01;31m[Kangular[m[K);
+[1.786s]       |                                                                 [01;31m[K^~~~~~~[m[K
+[2.871s] make[2]: *** [CMakeFiles/manual_control.dir/build.make:63：CMakeFiles/manual_control.dir/src/Manual_control.cpp.o] 错误 1
+[2.872s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/manual_control.dir/all] 错误 2
+[2.872s] make: *** [Makefile:141：all] 错误 2
+[2.874s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/manual_control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/manual_control -- -j8 -l8
