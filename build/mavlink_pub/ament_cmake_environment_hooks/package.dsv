@@ -1,0 +1,4 @@
+source;share/mavlink_pub/local_setup.bash
+source;share/mavlink_pub/local_setup.dsv
+source;share/mavlink_pub/local_setup.sh
+source;share/mavlink_pub/local_setup.zsh

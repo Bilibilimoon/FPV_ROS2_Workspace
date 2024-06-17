@@ -1,0 +1,4 @@
+Invoking command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/mavlink_pub -- -j8 -l8
+Invoked command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/mavlink_pub -- -j8 -l8
+Invoking command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/mavlink_pub
+Invoked command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/mavlink_pub

@@ -1,0 +1,4 @@
+Invoking command in '/home/moonly/fpv_ros2_workspace/build/auto_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/auto_control -- -j8 -l8
+Invoked command in '/home/moonly/fpv_ros2_workspace/build/auto_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/auto_control -- -j8 -l8
+Invoking command in '/home/moonly/fpv_ros2_workspace/build/auto_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/auto_control
+Invoked command in '/home/moonly/fpv_ros2_workspace/build/auto_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/auto_control

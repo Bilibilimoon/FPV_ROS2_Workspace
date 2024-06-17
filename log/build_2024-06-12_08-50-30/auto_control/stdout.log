@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target auto_control[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/auto_control.dir/src/Auto_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable auto_control[0m
+[100%] Built target auto_control

@@ -1,0 +1,22 @@
+[0.073s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/auto_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/auto_control -- -j8 -l8
+[0.456s] [100%] Built target auto_control
+[0.591s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/auto_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/auto_control -- -j8 -l8
+[1.293s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/auto_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/auto_control
+[1.395s] -- Install configuration: ""
+[1.397s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/lib/auto_control/auto_control
+[1.397s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/package_run_dependencies/auto_control
+[1.397s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/parent_prefix_path/auto_control
+[1.398s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/ament_prefix_path.sh
+[1.398s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/ament_prefix_path.dsv
+[1.398s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/path.sh
+[1.398s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/path.dsv
+[1.398s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.bash
+[1.398s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.sh
+[1.398s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.zsh
+[1.398s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.dsv
+[1.398s] -- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.dsv
+[1.417s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/packages/auto_control
+[1.417s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/cmake/auto_controlConfig.cmake
+[1.417s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/cmake/auto_controlConfig-version.cmake
+[1.417s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.xml
+[1.442s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/auto_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/auto_control
