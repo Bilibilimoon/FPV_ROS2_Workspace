@@ -23,9 +23,10 @@ int main(int argc, char **argv)
 
     //创建订阅器接收无人机GPS位置信息
     auto fpv_gps_subscriber = node->create_subscription<fpv_msgs::msg::MoonlyFpv>("/fpv_info", 10, fpv_gps_subscriber_Callback);
+    //订阅manual_control的模式切换
+    auto modle_subscriber = node->create_subscription<fpv_msgs::msg::MoonlyFpv>("/manual_control", 10, modle_subscriber_Callback);
     //订阅目标GPS位置信息
     auto aim_gps_subscriber = node->create_subscription<fpv_msgs::msg::MoonlyFpv>("/aim_gps", 10, aim_gps_subscriber_Callback);
-
     //发布FPV的期望动作
     auto act_pub_timer = node->create_wall_timer(std::chrono::milliseconds(50), act_pub);
 

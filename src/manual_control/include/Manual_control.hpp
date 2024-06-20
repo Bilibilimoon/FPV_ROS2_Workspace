@@ -223,6 +223,7 @@ void msg_pub()  //ROS2消息发布
     msg->manual_fpv_yaw = yaw;
     msg->manual_fpv_rol = rol;
     msg->manual_fpv_thr = thr;
+    msg->control_model = control_model;
 
     manual_control_publisher->publish(*msg);
 }
