@@ -81,6 +81,7 @@ int land_flag = 0;  //是否成功降落到了水面：成功1/失败0
 //用于起飞
 void take_off()
 {
+    if(control_model == 1)
     while(1)
     {
         if(fpv_gps_hight <= start_hight + 6)   //起飞到比原来海拔高6米
@@ -99,6 +100,7 @@ void take_off()
 //用于降落
 void land()
 {
+    if(control_model == 1)
     while(1)
     {
         if(fpv_gps_face >= start_hight - fall)
@@ -117,7 +119,116 @@ void land()
 //用来执行起飞之后自动控制功能，调整输出的油门大小等消息
 void auto_fpv_control()
 {
-    
+    if(control_model == 1)
+    while(1)
+    {
+        //计算目标与正北夹角（0～360）
+        double lat1 = fpv_gps_lat * M_PI / 180; // 将纬度转换为弧度
+        double lon1 = fpv_gps_lng * M_PI / 180; // 将经度转换为弧度
+        double lat2 = aim_gps_lat * M_PI / 180; // 将纬度转换为弧度
+        double lon2 = aim_gps_lng * M_PI / 180; // 将经度转换为弧度
+
+        double dLon = lon2 - lon1;
+
+        double y = sin(dLon) * cos(lat2);
+        double x = cos(lat1) * sin(lat2) - sin(lat1) * cos(lat2) * cos(dLon);
+        double heading = atan2(y, x);   //期望朝向角
+
+        // 将弧度转换为度数，并确保夹角在0到360度之间
+        heading = fmod(heading * 180 / M_PI, 360);
+        if (heading < 0) 
+        {
+            heading += 360;
+        }
+
+        //转向的逻辑判断
+        if(heading >= fpv_gps_face)
+        {
+            if(360 - heading + fpv_gps_face <= 30 || heading - fpv_gps_face <= 30)    //前进
+            {
+                pit = 1.4;  //调整输出的俯仰角
+                if(360 - heading + fpv_gps_face <= 7 || heading - fpv_gps_face <= 7)
+                {
+                    yaw = 0.0; 
+                }
+                else if(360 - heading + fpv_gps_face <= 10 || heading - fpv_gps_face <= 10)
+                {
+                    if(heading - fpv_gps_face <= 10)    //直线行驶途中修正航向
+                    {
+                        yaw = 0.1;
+                    }
+                    else
+                    {
+                        yaw = -0.1;
+                    }
+                }
+                else
+                {
+                    if(heading - fpv_gps_face <= 30)    //直线行驶途中修正航向
+                    {
+                        yaw = 0.2;
+                    }
+                    else
+                    {
+                        yaw = -0.2;
+                    }
+                }
+            }
+            else if(heading - fpv_gps_face <=180)  //右转
+            {
+                yaw = 0.4;
+                pit = 0;
+            }
+            else    //左转
+            {
+                yaw = -0.4;
+                pit = 0;
+            }
+        }
+        else
+        {
+            if(360 - fpv_gps_face + heading <= 30 || fpv_gps_face - heading <= 30)    //前进
+            {
+                pit = 1.4;
+                if(360 - fpv_gps_face + heading <= 7 || fpv_gps_face - heading <= 7)
+                {
+                    yaw = 0.0;
+                }
+                else if(360 - fpv_gps_face + heading <= 10 || fpv_gps_face - heading <= 10)
+                {
+                    if(fpv_gps_face - heading <= 10)    //直线行驶途中修正航向
+                    {
+                        yaw = -0.1;
+                    }
+                    else
+                    {
+                        yaw = 0.1;
+                    }
+                }
+                else //if(360 - yaw + heading <= 20 || yaw - heading <= 20)
+                {
+                    if(fpv_gps_face - heading <= 30)    //直线行驶途中修正航向
+                    {
+                        yaw = -0.2;
+                    }
+                    else
+                    {
+                        yaw = 0.2;
+                    }
+                }
+            }
+            else if(fpv_gps_face - heading <=180)  //左转
+            {
+                yaw = -0.4;
+                pit = 0;
+            }
+            else    //右转
+            {
+                yaw = 0.4;
+                pit = 0;
+            }
+        }
+    }
 }
 
 //执行降落之后的水面控制，调整船的期望线速度、角速度输出
