@@ -30,6 +30,9 @@ int main(int argc, char **argv)
     //发布FPV的期望动作
     auto act_pub_timer = node->create_wall_timer(std::chrono::milliseconds(50), act_pub);
 
+    //使用线程来选择当前的自动操控逻辑模式
+    std::thread getkey_thread(model_choose);
+
     printf("\033[2J\033[1;1H");  //清屏
     printf("%s\n",Readme);  //输出提示消息
 

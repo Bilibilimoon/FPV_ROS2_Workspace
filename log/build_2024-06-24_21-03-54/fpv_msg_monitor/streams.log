@@ -1,0 +1,45 @@
+[0.091s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor -- -j8 -l8
+[0.150s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.189s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.638s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.774s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.817s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.820s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.069s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.072s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.269s] -- Found fpv_msgs: 0.0.0 (/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake)
+[1.290s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.290s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.290s] -- Configured cppcheck include dirs: /home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor/include
+[1.291s] -- Configured cppcheck exclude dirs and/or files: 
+[1.291s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.291s] -- Configured cpplint exclude dirs and/or files: 
+[1.292s] -- Added test 'lint_cmake' to check CMake code style
+[1.292s] -- Added test 'uncrustify' to check C / C++ code style
+[1.292s] -- Configured uncrustify additional arguments: 
+[1.293s] -- Added test 'xmllint' to check XML markup files
+[1.297s] -- Configuring done
+[1.307s] -- Generating done
+[1.309s] -- Build files have been written to: /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor
+[1.425s] [100%] Built target fpv_msg_monitor
+[1.447s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor -- -j8 -l8
+[1.488s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor
+[1.501s] -- Install configuration: ""
+[1.502s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/lib/fpv_msg_monitor/fpv_msg_monitor
+[1.503s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/ament_index/resource_index/package_run_dependencies/fpv_msg_monitor
+[1.503s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/ament_index/resource_index/parent_prefix_path/fpv_msg_monitor
+[1.503s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/environment/ament_prefix_path.sh
+[1.503s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/environment/ament_prefix_path.dsv
+[1.503s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/environment/path.sh
+[1.503s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/environment/path.dsv
+[1.504s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/local_setup.bash
+[1.504s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/local_setup.sh
+[1.504s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/local_setup.zsh
+[1.504s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/local_setup.dsv
+[1.504s] -- Installing: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.dsv
+[1.504s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/ament_index/resource_index/packages/fpv_msg_monitor
+[1.504s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/cmake/fpv_msg_monitorConfig.cmake
+[1.504s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/cmake/fpv_msg_monitorConfig-version.cmake
+[1.504s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.xml
+[1.514s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor

@@ -75,6 +75,10 @@ thread
 -
 cmath
 -
+stdio.h
+-
+pthread.h
+-
 fpv_msgs/msg/moonly_fpv.hpp
 /home/moonly/fpv_ros2_workspace/src/auto_control/include/fpv_msgs/msg/moonly_fpv.hpp
 
