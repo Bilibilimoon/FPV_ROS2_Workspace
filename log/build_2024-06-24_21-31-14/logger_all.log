@@ -1,0 +1,712 @@
+[0.460s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.460s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb459fcc8e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb459fcc8e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb459f6b6a0>)[0m
+[0.552s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.552s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.553s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.553s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.553s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.553s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.553s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/moonly/fpv_ros2_workspace'
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.554s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.555s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.578s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.579s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.580s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.581s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.582s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.583s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.584s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extension 'ignore'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extension 'ignore_ament_install'
+[0.585s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extensions ['colcon_pkg']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extension 'colcon_pkg'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extensions ['colcon_meta']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extension 'colcon_meta'
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extensions ['ros']
+[0.586s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_control) by extension 'ros'
+[0.590s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/auto_control' with type 'ros.ament_cmake' and name 'auto_control'[0m
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extension 'ignore'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extension 'ignore_ament_install'
+[0.591s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extensions ['colcon_pkg']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extension 'colcon_pkg'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extensions ['colcon_meta']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extension 'colcon_meta'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extensions ['ros']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extension 'ros'
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extensions ['cmake', 'python']
+[0.592s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extension 'cmake'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extension 'python'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extensions ['python_setup_py']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2) by extension 'python_setup_py'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/build) by extension 'ignore'
+[0.593s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/build) ignored
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extension 'ignore'
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extension 'ignore_ament_install'
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extensions ['colcon_pkg']
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extension 'colcon_pkg'
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extensions ['colcon_meta']
+[0.594s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extension 'colcon_meta'
+[0.595s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extensions ['ros']
+[0.595s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_msgs) by extension 'ros'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dgps_ros2/dgps_msgs' with type 'ros.ament_cmake' and name 'dgps_msgs'[0m
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extension 'ignore'
+[0.596s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extension 'ignore_ament_install'
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extensions ['colcon_pkg']
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extension 'colcon_pkg'
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extensions ['colcon_meta']
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extension 'colcon_meta'
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extensions ['ros']
+[0.597s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/dgps_ros2) by extension 'ros'
+[0.599s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/dgps_ros2/dgps_ros2' with type 'ros.ament_cmake' and name 'dgps_ros2'[0m
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/install) by extension 'ignore'
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/install) ignored
+[0.600s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/log) by extension 'ignore'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/dgps_ros2/log) ignored
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extension 'ignore'
+[0.601s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extension 'ignore_ament_install'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extensions ['colcon_pkg']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extension 'colcon_pkg'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extensions ['colcon_meta']
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extension 'colcon_meta'
+[0.602s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extensions ['ros']
+[0.603s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msg_monitor) by extension 'ros'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fpv_msg_monitor' with type 'ros.ament_cmake' and name 'fpv_msg_monitor'[0m
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extension 'ignore'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extension 'ignore_ament_install'
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extensions ['colcon_pkg']
+[0.604s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extension 'colcon_pkg'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extensions ['colcon_meta']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extension 'colcon_meta'
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extensions ['ros']
+[0.605s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/fpv_msgs) by extension 'ros'
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/fpv_msgs' with type 'ros.ament_cmake' and name 'fpv_msgs'[0m
+[0.606s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extension 'ignore'
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extension 'ignore_ament_install'
+[0.607s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extensions ['colcon_pkg']
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extension 'colcon_pkg'
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extensions ['colcon_meta']
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extension 'colcon_meta'
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extensions ['ros']
+[0.608s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/manual_control) by extension 'ros'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/manual_control' with type 'ros.ament_cmake' and name 'manual_control'[0m
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extension 'ignore'
+[0.609s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extension 'ignore_ament_install'
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extensions ['colcon_pkg']
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extension 'colcon_pkg'
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extensions ['colcon_meta']
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extension 'colcon_meta'
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extensions ['ros']
+[0.610s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mavlink_pub) by extension 'ros'
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mavlink_pub' with type 'ros.ament_cmake' and name 'mavlink_pub'[0m
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extension 'ignore'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extension 'ignore_ament_install'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extensions ['colcon_pkg']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extension 'colcon_pkg'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extensions ['colcon_meta']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extension 'colcon_meta'
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extensions ['ros']
+[0.612s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/position_trans) by extension 'ros'
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/position_trans' with type 'ros.ament_cmake' and name 'position_trans'[0m
+[0.613s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extension 'ignore'
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extension 'ignore_ament_install'
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extensions ['colcon_pkg']
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extension 'colcon_pkg'
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extensions ['colcon_meta']
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extension 'colcon_meta'
+[0.614s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extensions ['ros']
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/pwm_trans) by extension 'ros'
+[0.615s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/pwm_trans' with type 'ros.ament_cmake' and name 'pwm_trans'[0m
+[0.615s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.616s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.616s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.616s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.616s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.642s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.643s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.646s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 9 installed packages in /home/moonly/fpv_ros2_workspace/install[0m
+[0.648s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 271 installed packages in /opt/ros/foxy[0m
+[0.651s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'cmake_args' from command line to 'None'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'cmake_target' from command line to 'None'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.846s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'auto_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/auto_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/auto_control', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/auto_control', 'symlink_install': False, 'test_result_base': None}[0m
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'cmake_args' from command line to 'None'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'cmake_target' from command line to 'None'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.847s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dgps_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/dgps_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/dgps_msgs', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'cmake_args' from command line to 'None'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'cmake_target' from command line to 'None'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'cmake_clean_first' from command line to 'False'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'cmake_force_configure' from command line to 'False'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'ament_cmake_args' from command line to 'None'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msg_monitor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.848s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fpv_msg_monitor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor', 'symlink_install': False, 'test_result_base': None}[0m
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'cmake_args' from command line to 'None'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'cmake_target' from command line to 'None'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'fpv_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.849s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'fpv_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/fpv_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/fpv_msgs', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/fpv_msgs', 'symlink_install': False, 'test_result_base': None}[0m
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'cmake_args' from command line to 'None'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'cmake_target' from command line to 'None'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'manual_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.850s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'manual_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/manual_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/manual_control', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/manual_control', 'symlink_install': False, 'test_result_base': None}[0m
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'cmake_args' from command line to 'None'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'cmake_target' from command line to 'None'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mavlink_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.851s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mavlink_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/mavlink_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/mavlink_pub', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/mavlink_pub', 'symlink_install': False, 'test_result_base': None}[0m
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'cmake_args' from command line to 'None'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'cmake_target' from command line to 'None'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'cmake_clean_cache' from command line to 'False'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'cmake_clean_first' from command line to 'False'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'cmake_force_configure' from command line to 'False'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'ament_cmake_args' from command line to 'None'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'catkin_cmake_args' from command line to 'None'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'position_trans' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'position_trans' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/position_trans', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/position_trans', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/position_trans', 'symlink_install': False, 'test_result_base': None}[0m
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'cmake_args' from command line to 'None'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'cmake_target' from command line to 'None'
+[0.852s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'cmake_clean_cache' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'cmake_clean_first' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'cmake_force_configure' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'ament_cmake_args' from command line to 'None'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'catkin_cmake_args' from command line to 'None'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'pwm_trans' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'pwm_trans' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/pwm_trans', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/pwm_trans', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/pwm_trans', 'symlink_install': False, 'test_result_base': None}[0m
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'cmake_args' from command line to 'None'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'cmake_target' from command line to 'None'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.853s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dgps_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.854s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dgps_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/moonly/fpv_ros2_workspace/build/dgps_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/moonly/fpv_ros2_workspace/install/dgps_ros2', 'merge_install': False, 'path': '/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_ros2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.854s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.862s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.864s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_msgs' with build type 'ament_cmake'
+[0.865s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_msgs'
+[0.905s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.906s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.906s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.924s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/auto_control' with build type 'ament_cmake'
+[0.924s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/auto_control'
+[0.926s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.926s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.965s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor' with build type 'ament_cmake'
+[0.966s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor'
+[0.966s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.966s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.998s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/fpv_msgs' with build type 'ament_cmake'
+[0.999s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/fpv_msgs'
+[1.000s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.000s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.012s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/manual_control' with build type 'ament_cmake'
+[1.012s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/manual_control'
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.013s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.059s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/mavlink_pub' with build type 'ament_cmake'
+[1.060s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/mavlink_pub'
+[1.061s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.061s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.096s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/position_trans' with build type 'ament_cmake'
+[1.097s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/position_trans'
+[1.098s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.098s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.111s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/pwm_trans' with build type 'ament_cmake'
+[1.112s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/pwm_trans'
+[1.112s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.112s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.152s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/dgps_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/dgps_msgs -- -j8 -l8[0m
+[1.181s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/auto_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/auto_control -- -j8 -l8[0m
+[1.226s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor -- -j8 -l8[0m
+[1.252s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msgs -- -j8 -l8[0m
+[1.271s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/manual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/manual_control -- -j8 -l8[0m
+[1.293s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/mavlink_pub -- -j8 -l8[0m
+[1.313s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8[0m
+[1.457s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/pwm_trans -- -j8 -l8[0m
+[1.507s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/mavlink_pub -- -j8 -l8[0m
+[1.551s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8[0m
+[1.653s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor -- -j8 -l8[0m
+[1.691s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/manual_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/manual_control -- -j8 -l8[0m
+[1.878s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/mavlink_pub[0m
+[1.923s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/position_trans[0m
+[1.955s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/pwm_trans -- -j8 -l8[0m
+[1.999s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mavlink_pub)
+[2.004s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub' for CMake module files
+[2.006s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/mavlink_pub[0m
+[2.008s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub' for CMake config files
+[2.008s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavlink_pub', 'cmake_prefix_path')
+[2.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/hook/cmake_prefix_path.ps1'
+[2.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/hook/cmake_prefix_path.dsv'
+[2.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/hook/cmake_prefix_path.sh'
+[2.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/bin'
+[2.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/lib/pkgconfig/mavlink_pub.pc'
+[2.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/lib/python3.8/site-packages'
+[2.012s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/bin'
+[2.013s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.ps1'
+[2.016s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.dsv'
+[2.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.sh'
+[2.026s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.bash'
+[2.032s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.zsh'
+[2.035s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/colcon-core/packages/mavlink_pub)
+[2.065s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(position_trans)
+[2.065s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans' for CMake module files
+[2.066s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans' for CMake config files
+[2.066s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('position_trans', 'cmake_prefix_path')
+[2.067s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/hook/cmake_prefix_path.ps1'
+[2.068s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/position_trans[0m
+[2.071s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/hook/cmake_prefix_path.dsv'
+[2.072s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/hook/cmake_prefix_path.sh'
+[2.073s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans/bin'
+[2.074s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans/lib/pkgconfig/position_trans.pc'
+[2.075s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans/lib/python3.8/site-packages'
+[2.075s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans/bin'
+[2.076s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.ps1'
+[2.077s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.dsv'
+[2.078s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.sh'
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.bash'
+[2.079s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.zsh'
+[2.081s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/position_trans/share/colcon-core/packages/position_trans)
+[2.122s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor[0m
+[2.143s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/manual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/manual_control[0m
+[2.170s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/pwm_trans[0m
+[2.179s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fpv_msg_monitor)
+[2.180s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor' for CMake module files
+[2.184s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor' for CMake config files
+[2.184s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor[0m
+[2.186s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fpv_msg_monitor', 'cmake_prefix_path')
+[2.186s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/hook/cmake_prefix_path.ps1'
+[2.188s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/hook/cmake_prefix_path.dsv'
+[2.190s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/hook/cmake_prefix_path.sh'
+[2.191s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/lib'
+[2.191s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/bin'
+[2.191s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/lib/pkgconfig/fpv_msg_monitor.pc'
+[2.192s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/lib/python3.8/site-packages'
+[2.192s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/bin'
+[2.193s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.ps1'
+[2.195s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.dsv'
+[2.195s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.sh'
+[2.196s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.bash'
+[2.196s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.zsh'
+[2.198s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/colcon-core/packages/fpv_msg_monitor)
+[2.230s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(manual_control)
+[2.230s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/manual_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/manual_control[0m
+[2.232s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control' for CMake module files
+[2.235s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control' for CMake config files
+[2.236s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('manual_control', 'cmake_prefix_path')
+[2.236s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/hook/cmake_prefix_path.ps1'
+[2.237s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/hook/cmake_prefix_path.dsv'
+[2.238s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/hook/cmake_prefix_path.sh'
+[2.239s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/lib'
+[2.239s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/bin'
+[2.239s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/lib/pkgconfig/manual_control.pc'
+[2.239s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/lib/python3.8/site-packages'
+[2.240s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/bin'
+[2.240s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.ps1'
+[2.241s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.dsv'
+[2.243s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.sh'
+[2.253s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.bash'
+[2.254s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.zsh'
+[2.256s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/manual_control/share/colcon-core/packages/manual_control)
+[2.344s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pwm_trans)
+[2.345s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans' for CMake module files
+[2.346s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans' for CMake config files
+[2.346s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pwm_trans', 'cmake_prefix_path')
+[2.344s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/pwm_trans[0m
+[2.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/hook/cmake_prefix_path.ps1'
+[2.347s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/hook/cmake_prefix_path.dsv'
+[2.348s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/hook/cmake_prefix_path.sh'
+[2.348s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/lib'
+[2.348s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/bin'
+[2.348s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/lib/pkgconfig/pwm_trans.pc'
+[2.349s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/lib/python3.8/site-packages'
+[2.349s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/bin'
+[2.349s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.ps1'
+[2.350s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.dsv'
+[2.350s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.sh'
+[2.350s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.bash'
+[2.350s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.zsh'
+[2.352s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/colcon-core/packages/pwm_trans)
+[2.411s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mavlink_pub)
+[2.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub' for CMake module files
+[2.413s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub' for CMake config files
+[2.415s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mavlink_pub', 'cmake_prefix_path')
+[2.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/hook/cmake_prefix_path.ps1'
+[2.419s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/hook/cmake_prefix_path.dsv'
+[2.430s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/hook/cmake_prefix_path.sh'
+[2.432s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/bin'
+[2.432s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/lib/pkgconfig/mavlink_pub.pc'
+[2.433s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/lib/python3.8/site-packages'
+[2.433s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/bin'
+[2.439s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.ps1'
+[2.443s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.dsv'
+[2.444s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.sh'
+[2.445s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.bash'
+[2.445s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.zsh'
+[2.446s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/colcon-core/packages/mavlink_pub)
+[2.447s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(position_trans)
+[2.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans' for CMake module files
+[2.449s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans' for CMake config files
+[2.459s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('position_trans', 'cmake_prefix_path')
+[2.472s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/hook/cmake_prefix_path.ps1'
+[2.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/hook/cmake_prefix_path.dsv'
+[2.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/hook/cmake_prefix_path.sh'
+[2.475s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans/bin'
+[2.476s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans/lib/pkgconfig/position_trans.pc'
+[2.476s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans/lib/python3.8/site-packages'
+[2.476s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/position_trans/bin'
+[2.477s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.ps1'
+[2.477s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.dsv'
+[2.478s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.sh'
+[2.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.bash'
+[2.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.zsh'
+[2.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/position_trans/share/colcon-core/packages/position_trans)
+[2.574s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/dgps_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/dgps_msgs -- -j8 -l8[0m
+[2.598s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fpv_msg_monitor)
+[2.599s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor' for CMake module files
+[2.599s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor' for CMake config files
+[2.600s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fpv_msg_monitor', 'cmake_prefix_path')
+[2.600s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/hook/cmake_prefix_path.ps1'
+[2.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/hook/cmake_prefix_path.dsv'
+[2.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/hook/cmake_prefix_path.sh'
+[2.602s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/lib'
+[2.603s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/bin'
+[2.603s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/lib/pkgconfig/fpv_msg_monitor.pc'
+[2.604s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/lib/python3.8/site-packages'
+[2.604s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/bin'
+[2.604s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.ps1'
+[2.606s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.dsv'
+[2.606s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.sh'
+[2.607s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.bash'
+[2.608s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/fpv_msg_monitor/package.zsh'
+[2.608s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor/share/colcon-core/packages/fpv_msg_monitor)
+[2.610s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(manual_control)
+[2.611s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control' for CMake module files
+[2.611s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control' for CMake config files
+[2.612s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('manual_control', 'cmake_prefix_path')
+[2.612s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/hook/cmake_prefix_path.ps1'
+[2.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/hook/cmake_prefix_path.dsv'
+[2.617s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/hook/cmake_prefix_path.sh'
+[2.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/lib'
+[2.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/bin'
+[2.619s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/lib/pkgconfig/manual_control.pc'
+[2.620s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/lib/python3.8/site-packages'
+[2.620s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/manual_control/bin'
+[2.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.ps1'
+[2.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.dsv'
+[2.624s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.sh'
+[2.629s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.bash'
+[2.632s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.zsh'
+[2.634s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/manual_control/share/colcon-core/packages/manual_control)
+[2.712s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(pwm_trans)
+[2.713s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans' for CMake module files
+[2.714s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans' for CMake config files
+[2.714s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('pwm_trans', 'cmake_prefix_path')
+[2.714s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/hook/cmake_prefix_path.ps1'
+[2.715s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/hook/cmake_prefix_path.dsv'
+[2.715s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/hook/cmake_prefix_path.sh'
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/lib'
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/bin'
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/lib/pkgconfig/pwm_trans.pc'
+[2.716s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/lib/python3.8/site-packages'
+[2.717s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/pwm_trans/bin'
+[2.718s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.ps1'
+[2.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.dsv'
+[2.725s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.sh'
+[2.726s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.bash'
+[2.727s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/pwm_trans/package.zsh'
+[2.728s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/pwm_trans/share/colcon-core/packages/pwm_trans)
+[2.811s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/fpv_msgs -- -j8 -l8[0m
+[3.298s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/fpv_msgs[0m
+[3.415s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fpv_msgs)
+[3.415s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs' for CMake module files
+[3.416s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs' for CMake config files
+[3.417s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fpv_msgs', 'cmake_prefix_path')
+[3.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/cmake_prefix_path.ps1'
+[3.418s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/cmake_prefix_path.dsv'
+[3.419s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/fpv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/fpv_msgs[0m
+[3.420s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/cmake_prefix_path.sh'
+[3.421s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib'
+[3.421s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fpv_msgs', 'ld_library_path_lib')
+[3.421s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/ld_library_path_lib.ps1'
+[3.422s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/ld_library_path_lib.dsv'
+[3.423s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/ld_library_path_lib.sh'
+[3.424s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/bin'
+[3.424s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/pkgconfig/fpv_msgs.pc'
+[3.424s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages'
+[3.424s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fpv_msgs', 'pythonpath')
+[3.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/pythonpath.ps1'
+[3.425s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/pythonpath.dsv'
+[3.426s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/pythonpath.sh'
+[3.426s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/bin'
+[3.427s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.ps1'
+[3.429s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.dsv'
+[3.430s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.sh'
+[3.430s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.bash'
+[3.431s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.zsh'
+[3.431s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/colcon-core/packages/fpv_msgs)
+[3.485s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/dgps_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/dgps_msgs[0m
+[3.576s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dgps_msgs)
+[3.577s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs' for CMake module files
+[3.577s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/dgps_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/dgps_msgs[0m
+[3.578s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs' for CMake config files
+[3.578s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_msgs', 'cmake_prefix_path')
+[3.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/cmake_prefix_path.ps1'
+[3.580s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/cmake_prefix_path.dsv'
+[3.580s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/cmake_prefix_path.sh'
+[3.581s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib'
+[3.581s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_msgs', 'ld_library_path_lib')
+[3.582s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/ld_library_path_lib.ps1'
+[3.582s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/ld_library_path_lib.dsv'
+[3.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/ld_library_path_lib.sh'
+[3.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/bin'
+[3.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/pkgconfig/dgps_msgs.pc'
+[3.585s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/python3.8/site-packages'
+[3.585s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_msgs', 'pythonpath')
+[3.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/pythonpath.ps1'
+[3.586s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/pythonpath.dsv'
+[3.586s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/pythonpath.sh'
+[3.587s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/bin'
+[3.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.ps1'
+[3.588s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.dsv'
+[3.589s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.sh'
+[3.590s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.bash'
+[3.590s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.zsh'
+[3.590s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/colcon-core/packages/dgps_msgs)
+[3.745s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(fpv_msgs)
+[3.745s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs' for CMake module files
+[3.746s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs' for CMake config files
+[3.746s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fpv_msgs', 'cmake_prefix_path')
+[3.746s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/cmake_prefix_path.ps1'
+[3.747s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/cmake_prefix_path.dsv'
+[3.748s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/cmake_prefix_path.sh'
+[3.749s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib'
+[3.749s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fpv_msgs', 'ld_library_path_lib')
+[3.750s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/ld_library_path_lib.ps1'
+[3.750s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/ld_library_path_lib.dsv'
+[3.750s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/ld_library_path_lib.sh'
+[3.751s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/bin'
+[3.751s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/pkgconfig/fpv_msgs.pc'
+[3.752s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages'
+[3.753s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('fpv_msgs', 'pythonpath')
+[3.753s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/pythonpath.ps1'
+[3.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/pythonpath.dsv'
+[3.762s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/hook/pythonpath.sh'
+[3.763s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/bin'
+[3.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.ps1'
+[3.765s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.dsv'
+[3.765s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.sh'
+[3.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.bash'
+[3.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/package.zsh'
+[3.769s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/colcon-core/packages/fpv_msgs)
+[4.019s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dgps_msgs)
+[4.020s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs' for CMake module files
+[4.020s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs' for CMake config files
+[4.020s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_msgs', 'cmake_prefix_path')
+[4.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/cmake_prefix_path.ps1'
+[4.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/cmake_prefix_path.dsv'
+[4.021s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/cmake_prefix_path.sh'
+[4.021s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib'
+[4.022s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_msgs', 'ld_library_path_lib')
+[4.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/ld_library_path_lib.ps1'
+[4.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/ld_library_path_lib.dsv'
+[4.022s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/ld_library_path_lib.sh'
+[4.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/bin'
+[4.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/pkgconfig/dgps_msgs.pc'
+[4.023s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/python3.8/site-packages'
+[4.023s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_msgs', 'pythonpath')
+[4.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/pythonpath.ps1'
+[4.023s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/pythonpath.dsv'
+[4.024s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/hook/pythonpath.sh'
+[4.024s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/bin'
+[4.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.ps1'
+[4.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.dsv'
+[4.025s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.sh'
+[4.026s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.bash'
+[4.026s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/dgps_msgs/package.zsh'
+[4.026s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/dgps_msgs/share/colcon-core/packages/dgps_msgs)
+[4.027s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_ros2' with build type 'ament_cmake'
+[4.027s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/moonly/fpv_ros2_workspace/src/dgps_ros2/dgps_ros2'
+[4.028s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.028s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[4.063s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/dgps_ros2': CMAKE_PREFIX_PATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/dgps_ros2:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib:/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib PYTHONPATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/python3.8/site-packages:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/dgps_ros2 -- -j8 -l8[0m
+[4.179s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/dgps_ros2' returned '0': CMAKE_PREFIX_PATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/dgps_ros2:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib:/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib PYTHONPATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/python3.8/site-packages:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/dgps_ros2 -- -j8 -l8[0m
+[4.248s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/dgps_ros2': CMAKE_PREFIX_PATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/dgps_ros2:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib:/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib PYTHONPATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/python3.8/site-packages:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/dgps_ros2[0m
+[4.268s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dgps_ros2)
+[4.269s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2' for CMake module files
+[4.270s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2' for CMake config files
+[4.271s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_ros2', 'cmake_prefix_path')
+[4.271s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/cmake_prefix_path.ps1'
+[4.274s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/dgps_ros2' returned '0': CMAKE_PREFIX_PATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/dgps_ros2:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy LD_LIBRARY_PATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib:/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib PYTHONPATH=/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/python3.8/site-packages:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/dgps_ros2[0m
+[4.275s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/cmake_prefix_path.dsv'
+[4.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/cmake_prefix_path.sh'
+[4.277s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib'
+[4.277s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_ros2', 'ld_library_path_lib')
+[4.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/ld_library_path_lib.ps1'
+[4.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/ld_library_path_lib.dsv'
+[4.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/ld_library_path_lib.sh'
+[4.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/bin'
+[4.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib/pkgconfig/dgps_ros2.pc'
+[4.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib/python3.8/site-packages'
+[4.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/bin'
+[4.280s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.ps1'
+[4.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.dsv'
+[4.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.sh'
+[4.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.bash'
+[4.283s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.zsh'
+[4.283s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/colcon-core/packages/dgps_ros2)
+[4.358s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(dgps_ros2)
+[4.359s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2' for CMake module files
+[4.360s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2' for CMake config files
+[4.360s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_ros2', 'cmake_prefix_path')
+[4.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/cmake_prefix_path.ps1'
+[4.361s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/cmake_prefix_path.dsv'
+[4.361s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/cmake_prefix_path.sh'
+[4.362s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib'
+[4.362s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('dgps_ros2', 'ld_library_path_lib')
+[4.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/ld_library_path_lib.ps1'
+[4.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/ld_library_path_lib.dsv'
+[4.363s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/hook/ld_library_path_lib.sh'
+[4.364s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/bin'
+[4.364s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib/pkgconfig/dgps_ros2.pc'
+[4.364s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib/python3.8/site-packages'
+[4.365s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/bin'
+[4.365s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.ps1'
+[4.366s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.dsv'
+[4.366s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.sh'
+[4.367s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.bash'
+[4.367s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/dgps_ros2/package.zsh'
+[4.368s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/dgps_ros2/share/colcon-core/packages/dgps_ros2)
+[9.670s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/auto_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/auto_control -- -j8 -l8[0m
+[9.717s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/moonly/fpv_ros2_workspace/build/auto_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/auto_control[0m
+[9.736s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(auto_control)
+[9.737s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control' for CMake module files
+[9.738s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/moonly/fpv_ros2_workspace/build/auto_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/auto_control[0m
+[9.738s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control' for CMake config files
+[9.738s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('auto_control', 'cmake_prefix_path')
+[9.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/hook/cmake_prefix_path.ps1'
+[9.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/hook/cmake_prefix_path.dsv'
+[9.739s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/hook/cmake_prefix_path.sh'
+[9.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/lib'
+[9.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/bin'
+[9.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/lib/pkgconfig/auto_control.pc'
+[9.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/lib/python3.8/site-packages'
+[9.740s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/bin'
+[9.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.ps1'
+[9.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.dsv'
+[9.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.sh'
+[9.742s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.bash'
+[9.742s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.zsh'
+[9.742s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/auto_control/share/colcon-core/packages/auto_control)
+[9.777s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(auto_control)
+[9.777s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control' for CMake module files
+[9.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control' for CMake config files
+[9.778s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('auto_control', 'cmake_prefix_path')
+[9.778s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/hook/cmake_prefix_path.ps1'
+[9.779s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/hook/cmake_prefix_path.dsv'
+[9.779s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/hook/cmake_prefix_path.sh'
+[9.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/lib'
+[9.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/bin'
+[9.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/lib/pkgconfig/auto_control.pc'
+[9.780s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/lib/python3.8/site-packages'
+[9.781s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/moonly/fpv_ros2_workspace/install/auto_control/bin'
+[9.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.ps1'
+[9.783s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.dsv'
+[9.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.sh'
+[9.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.bash'
+[9.785s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.zsh'
+[9.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/moonly/fpv_ros2_workspace/install/auto_control/share/colcon-core/packages/auto_control)
+[9.787s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[9.788s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[9.788s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[9.788s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[9.796s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.796s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.796s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[9.812s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[9.813s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/moonly/fpv_ros2_workspace/install/local_setup.ps1'
+[9.814s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/moonly/fpv_ros2_workspace/install/_local_setup_util_ps1.py'
+[9.816s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/moonly/fpv_ros2_workspace/install/setup.ps1'
+[9.818s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/moonly/fpv_ros2_workspace/install/local_setup.sh'
+[9.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/moonly/fpv_ros2_workspace/install/_local_setup_util_sh.py'
+[9.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/moonly/fpv_ros2_workspace/install/setup.sh'
+[9.820s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/moonly/fpv_ros2_workspace/install/local_setup.bash'
+[9.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/moonly/fpv_ros2_workspace/install/setup.bash'
+[9.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/moonly/fpv_ros2_workspace/install/local_setup.zsh'
+[9.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/moonly/fpv_ros2_workspace/install/setup.zsh'

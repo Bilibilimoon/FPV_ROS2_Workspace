@@ -37,7 +37,7 @@ double start_lng;   //初始经度
 double start_lat;   //初始纬度
 
 //手动给定水面距初始海拔的落差
-double fall = 0;               // <————————————————————————————————————————这个值要在代码这里手动给好！！！
+double fall = 4;               // <————————————————————————————————————————这个值要在代码这里手动给好！！！
 
 //订阅无人机实时信息(从此节点启动就一直订阅)
 void fpv_gps_subscriber_Callback(const fpv_msgs::msg::MoonlyFpv::SharedPtr msg)
@@ -99,7 +99,11 @@ void model_choose()
     while(1)
     {
         if(control_model == -1)     //当前为键盘手动操控模式
+        {
+            take_off_flag = 0;
+            land_flag = 0;
             continue;
+        }
         if((fpv_gps_lng - aim_gps_lng)*97176.56 <= edge && (fpv_gps_lng - aim_gps_lng)*97176.56 >= -edge && (fpv_gps_lat - aim_gps_lat)*111000 <= edge && (fpv_gps_lat - aim_gps_lat)*111000 >= -edge)    //比较当前船和驶向点位的距离
         {
             land_flag = -1;    //飞行到达预期范围内了，开始降落
@@ -400,5 +404,8 @@ void act_pub()
     msg->boat_linear_speed = linear;
     msg->boat_angular_speed = angular;
     Auto_control_publisher->publish(*msg);
+
+    system("clear"); 
+    printf("————飞机————\n当前油门：%.1f\n当前偏航：%.1f\n当前俯仰：%.1f\n当前横滚：%.1f\n————船————\n当前期望线速度%.1f\n当前期望角速度:%.1f\n", thr, yaw, pit, rol, linear, angular);
 }
 
