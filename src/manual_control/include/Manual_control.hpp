@@ -238,3 +238,16 @@ void control_model_pub()
 
     control_model_publisher->publish(*msg);
 }
+
+void boat_speed_pub()
+{
+    auto pub_node = rclcpp::Node::make_shared("ManualControl");
+    auto boat_speed_publisher = pub_node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/boat_speed", 10);
+    auto msg = std::make_shared<fpv_msgs::msg::MoonlyFpv>();
+    //组织要发送的消息
+
+    msg->boat_angular_speed = angular;
+    msg->boat_linear_speed = linear;
+
+    boat_speed_publisher->publish(*msg);
+}
