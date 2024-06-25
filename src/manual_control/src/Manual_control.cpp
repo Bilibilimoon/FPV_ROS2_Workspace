@@ -15,6 +15,8 @@ int main(int argc, char **argv)
     auto manual_control_publisher = node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/manual_control", 10);
     auto msg_pub_timer = node->create_wall_timer(std::chrono::milliseconds(50), msg_pub);
     auto model_pub_timer = node->create_wall_timer(std::chrono::milliseconds(50), control_model_pub);
+    auto boat_speed_timer = node->create_wall_timer(std::chrono::milliseconds(50), boat_speed_pub);
+
 
     system("clear"); 
     std::this_thread::sleep_for(std::chrono::milliseconds(250));   //延迟250ms
