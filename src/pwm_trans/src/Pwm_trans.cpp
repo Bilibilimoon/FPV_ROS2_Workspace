@@ -26,7 +26,7 @@ int main(int argc, char **argv)
     printf("%s\n",Readme);  //输出提示消息
 
     //消息发布
-    rclcpp::WallRate loop_rate(200); // 8 Hz
+    rclcpp::WallRate loop_rate(200); // Hz
     auto publisher = node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/pwm_out", 10);    //创建发布者：pwm到/pwm_out话题
     auto pwm_msg = std::make_shared<fpv_msgs::msg::MoonlyFpv>();
     while(rclcpp::ok())

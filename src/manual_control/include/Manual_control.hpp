@@ -213,7 +213,7 @@ void print_info()   //用于终端打印信息
 
 void msg_pub()  //ROS2消息发布 
 {
-    auto pub_node = rclcpp::Node::make_shared("ManualControl_pub");
+    auto pub_node = rclcpp::Node::make_shared("ManualControl");
     auto manual_control_publisher = pub_node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/manual_control", 10);
     auto msg = std::make_shared<fpv_msgs::msg::MoonlyFpv>();
     //组织要发送的消息
@@ -223,7 +223,18 @@ void msg_pub()  //ROS2消息发布
     msg->manual_fpv_yaw = yaw;
     msg->manual_fpv_rol = rol;
     msg->manual_fpv_thr = thr;
-    msg->control_model = control_model;
 
     manual_control_publisher->publish(*msg);
+}
+
+void control_model_pub()
+{
+    auto pub_node = rclcpp::Node::make_shared("ManualControl");
+    auto control_model_publisher = pub_node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/control_model", 10);
+    auto msg = std::make_shared<fpv_msgs::msg::MoonlyFpv>();
+    //组织要发送的消息
+
+    msg->control_model = control_model;
+
+    control_model_publisher->publish(*msg);
 }
