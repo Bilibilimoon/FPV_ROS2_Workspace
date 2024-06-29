@@ -49,20 +49,23 @@ void fpv_gps_subscriber_Callback(const fpv_msgs::msg::MoonlyFpv::SharedPtr msg)
 }
 
 //订阅manual_control的模式切换,并且初始化飞机初始位置信息
-void modle_subscriber_Callback(const fpv_msgs::msg::MoonlyFpv::SharedPtr msg)
+int start = 0;
+void control_modle_subscriber_Callback(const fpv_msgs::msg::MoonlyFpv::SharedPtr msg)
 {
-    if(control_model == -1 && msg->control_model == 1) //从手动模式切换到自动模式
+    if(msg->control_model == 1 && start == 0) //从手动模式切换到自动模式
     {
         control_model = 1;
+        start = 1;
         //记录飞机初始位置信息
         start_hight = fpv_gps_hight;
         start_lat = fpv_gps_lat;
         start_lng = fpv_gps_lng;
         fpv_model = 1;
     }
-    else
+    else if(control_model == 1 && msg->control_model == -1)
     {
         control_model = -1;
+        start = 0;
         fpv_model = 1;
         start_hight = 0;
         start_lat = 0;
@@ -151,6 +154,7 @@ void *land(void *arg)
         else
         {
             land_flag = 1;
+            thr = 0;
             break;
         }
     }
@@ -394,18 +398,21 @@ void *auto_boat_control(void *arg)
 //循环发布期望动作到话题：/Auto_control
 void act_pub()
 {
-    auto node = rclcpp::Node::make_shared("Auto_control_pub");
-    auto Auto_control_publisher = node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/Auto_control", 10);
+    auto node = rclcpp::Node::make_shared("AutoControl");
+    auto Auto_control_publisher = node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/auto_control", 10);
     auto msg = std::make_shared<fpv_msgs::msg::MoonlyFpv>();
+
     msg->auto_fpv_rol = rol;
     msg->auto_fpv_pit = pit;
     msg->auto_fpv_thr = thr;
     msg->auto_fpv_yaw = yaw;
     msg->boat_linear_speed = linear;
     msg->boat_angular_speed = angular;
+
     Auto_control_publisher->publish(*msg);
 
-    system("clear"); 
-    printf("————飞机————\n当前油门：%.1f\n当前偏航：%.1f\n当前俯仰：%.1f\n当前横滚：%.1f\n————船————\n当前期望线速度%.1f\n当前期望角速度:%.1f\n", thr, yaw, pit, rol, linear, angular);
+    // system("clear"); 
+    for(int i=0;i<7;i++)    //刷新这几行重新打印
+        printf("\033[3A\033[K");
+    printf("————飞机————\n当前油门：%.1f      \n当前偏航：%.1f      \n当前俯仰：%.1f      \n当前横滚：%.1f      \n————船————\n当前期望线速度%.1f      \n当前期望角速度:%.1f      \n", thr, yaw, pit, rol, linear, angular);
 }
-

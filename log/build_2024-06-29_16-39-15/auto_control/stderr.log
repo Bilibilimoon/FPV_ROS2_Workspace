@@ -1,0 +1,17 @@
+In file included from [01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/src/Auto_control.cpp:3[m[K:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:[m[K In function ‘[01m[Kvoid* take_off(void*)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:122:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  122 | void *take_off([01;35m[Kvoid *arg[m[K)
+      |                [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:[m[K In function ‘[01m[Kvoid* land(void*)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:143:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  143 | void *land([01;35m[Kvoid *arg[m[K)
+      |            [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:[m[K In function ‘[01m[Kvoid* auto_fpv_control(void*)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:163:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  163 | void *auto_fpv_control([01;35m[Kvoid *arg[m[K)
+      |                        [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:[m[K In function ‘[01m[Kvoid* auto_boat_control(void*)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:280:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  280 | void *auto_boat_control([01;35m[Kvoid *arg[m[K)
+      |                         [01;35m[K~~~~~~^~~[m[K

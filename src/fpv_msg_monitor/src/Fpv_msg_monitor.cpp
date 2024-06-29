@@ -33,7 +33,7 @@ int main(int argc, char * argv[])
   rclcpp::init(argc, argv);
   auto node = rclcpp::Node::make_shared("manual_control_subscriber");
   auto subscription = node->create_subscription<fpv_msgs::msg::MoonlyFpv>(
-    "/manual_control", 10, manualControlCallback);
+    "/auto_control", 10, manualControlCallback);
 
   rclcpp::spin(node);
   rclcpp::shutdown();

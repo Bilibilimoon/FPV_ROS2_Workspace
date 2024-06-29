@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000675] (-) JobUnselected: {'identifier': 'fpv_msg_monitor'}
+[0.000874] (-) JobUnselected: {'identifier': 'fpv_msgs'}
+[0.000980] (-) JobUnselected: {'identifier': 'manual_control'}
+[0.001077] (-) JobUnselected: {'identifier': 'mavlink_pub'}
+[0.001175] (-) JobUnselected: {'identifier': 'position_trans'}
+[0.001273] (-) JobUnselected: {'identifier': 'pwm_trans'}
+[0.001398] (auto_control) JobQueued: {'identifier': 'auto_control', 'dependencies': OrderedDict()}
+[0.001513] (auto_control) JobStarted: {'identifier': 'auto_control'}
+[0.008854] (auto_control) JobProgress: {'identifier': 'auto_control', 'progress': 'cmake'}
+[0.014506] (auto_control) JobProgress: {'identifier': 'auto_control', 'progress': 'build'}
+[0.014737] (auto_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moonly/fpv_ros2_workspace/build/auto_control', '--', '-j8', '-l8'], 'cwd': '/home/moonly/fpv_ros2_workspace/build/auto_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1696,unix/Mi-laptop:/tmp/.ICE-unix/1696'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1580'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/moonly/fpv_ros2_workspace/build/auto_control'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LOGNAME', 'moonly'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('WINDOWPATH', '2'), ('HOME', '/home/moonly'), ('USERNAME', 'moonly'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('AMENT_PREFIX_PATH', '/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/dgps_ros2:/home/moonly/fpv_ros2_workspace/install/dgps_msgs:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/dgps_ros2:/home/moonly/fpv_ros2_workspace/install/dgps_msgs:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/fpv_ros2_workspace/install'), ('INVOCATION_ID', '2cdde236d827434db515be6ede655e11'), ('MANAGERPID', '1329'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages:/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moonly'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-01004b7191.sock'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('http_proxy', 'http://127.0.0.1:20171'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('LD_LIBRARY_PATH', '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib:/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib:/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('TCL_LIBRARY', ':/home/ns-allinone-2.35/tcl8.5.10/library:/home/ns-allinone-2.35/tcl8.5.10/library'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:46302'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.8.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ns-allinone-2.35/bin:/home/ns-allinone-2.35/tcl8.5.10/unix:/home/ns-allinone-2.35/tk8.5.10/unix:/opt/gradle/gradle-6.8.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ns-allinone-2.35/bin:/home/ns-allinone-2.35/tcl8.5.10/unix:/home/ns-allinone-2.35/tk8.5.10/unix'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3674'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.090849] (-) TimerEvent: {}
+[0.128565] (auto_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target auto_control\x1b[0m\n'}
+[0.179301] (auto_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/auto_control.dir/src/Auto_control.cpp.o\x1b[0m\n'}
+[0.190992] (-) TimerEvent: {}
+[0.291701] (-) TimerEvent: {}
+[0.392452] (-) TimerEvent: {}
+[0.492834] (-) TimerEvent: {}
+[0.593507] (-) TimerEvent: {}
+[0.694384] (-) TimerEvent: {}
+[0.794998] (-) TimerEvent: {}
+[0.895406] (-) TimerEvent: {}
+[0.996309] (-) TimerEvent: {}
+[1.097808] (-) TimerEvent: {}
+[1.198710] (-) TimerEvent: {}
+[1.299564] (-) TimerEvent: {}
+[1.400441] (-) TimerEvent: {}
+[1.501443] (-) TimerEvent: {}
+[1.602344] (-) TimerEvent: {}
+[1.702846] (-) TimerEvent: {}
+[1.803437] (-) TimerEvent: {}
+[1.904949] (-) TimerEvent: {}
+[2.005809] (-) TimerEvent: {}
+[2.106726] (-) TimerEvent: {}
+[2.207567] (-) TimerEvent: {}
+[2.316459] (-) TimerEvent: {}
+[2.418649] (-) TimerEvent: {}
+[2.485156] (auto_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/src/Auto_control.cpp:3\x1b[m\x1b[K:\n'}
+[2.485440] (auto_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* take_off(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.485560] (auto_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:120:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.485641] (auto_control) StderrLine: {'line': b'  120 | void *take_off(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K)\n'}
+[2.485712] (auto_control) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.485785] (auto_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* land(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.486925] (auto_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:141:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.487006] (auto_control) StderrLine: {'line': b'  141 | void *land(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K)\n'}
+[2.487074] (auto_control) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.490250] (auto_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* auto_fpv_control(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.490510] (auto_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:161:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.490579] (auto_control) StderrLine: {'line': b'  161 | void *auto_fpv_control(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K)\n'}
+[2.490645] (auto_control) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.490709] (auto_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid* auto_boat_control(void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.490773] (auto_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:278:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.490837] (auto_control) StderrLine: {'line': b'  278 | void *auto_boat_control(\x1b[01;35m\x1b[Kvoid *arg\x1b[m\x1b[K)\n'}
+[2.490919] (auto_control) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.518829] (-) TimerEvent: {}
+[2.620234] (-) TimerEvent: {}
+[2.721207] (-) TimerEvent: {}
+[2.822398] (-) TimerEvent: {}
+[2.923167] (-) TimerEvent: {}
+[3.023900] (-) TimerEvent: {}
+[3.124635] (-) TimerEvent: {}
+[3.225383] (-) TimerEvent: {}
+[3.326143] (-) TimerEvent: {}
+[3.428414] (-) TimerEvent: {}
+[3.529143] (-) TimerEvent: {}
+[3.629891] (-) TimerEvent: {}
+[3.730644] (-) TimerEvent: {}
+[3.831588] (-) TimerEvent: {}
+[3.932433] (-) TimerEvent: {}
+[4.033863] (-) TimerEvent: {}
+[4.134412] (-) TimerEvent: {}
+[4.235079] (-) TimerEvent: {}
+[4.335631] (-) TimerEvent: {}
+[4.454758] (-) TimerEvent: {}
+[4.555309] (-) TimerEvent: {}
+[4.655650] (-) TimerEvent: {}
+[4.756143] (-) TimerEvent: {}
+[4.856504] (-) TimerEvent: {}
+[4.959904] (-) TimerEvent: {}
+[5.061600] (-) TimerEvent: {}
+[5.164651] (-) TimerEvent: {}
+[5.265270] (-) TimerEvent: {}
+[5.366273] (-) TimerEvent: {}
+[5.467030] (-) TimerEvent: {}
+[5.567851] (-) TimerEvent: {}
+[5.669742] (-) TimerEvent: {}
+[5.771292] (-) TimerEvent: {}
+[5.871966] (-) TimerEvent: {}
+[5.972472] (-) TimerEvent: {}
+[6.072978] (-) TimerEvent: {}
+[6.173357] (-) TimerEvent: {}
+[6.273961] (-) TimerEvent: {}
+[6.374647] (-) TimerEvent: {}
+[6.475510] (-) TimerEvent: {}
+[6.577445] (-) TimerEvent: {}
+[6.678167] (-) TimerEvent: {}
+[6.778543] (-) TimerEvent: {}
+[6.879040] (-) TimerEvent: {}
+[6.979549] (-) TimerEvent: {}
+[7.079918] (-) TimerEvent: {}
+[7.180300] (-) TimerEvent: {}
+[7.280812] (-) TimerEvent: {}
+[7.381205] (-) TimerEvent: {}
+[7.483272] (-) TimerEvent: {}
+[7.583691] (-) TimerEvent: {}
+[7.684127] (-) TimerEvent: {}
+[7.784657] (-) TimerEvent: {}
+[7.885209] (-) TimerEvent: {}
+[7.907345] (auto_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable auto_control\x1b[0m\n'}
+[7.985352] (-) TimerEvent: {}
+[8.086021] (-) TimerEvent: {}
+[8.187452] (-) TimerEvent: {}
+[8.287938] (-) TimerEvent: {}
+[8.373207] (auto_control) StdoutLine: {'line': b'[100%] Built target auto_control\n'}
+[8.401790] (-) TimerEvent: {}
+[8.412210] (auto_control) CommandEnded: {'returncode': 0}
+[8.501886] (-) TimerEvent: {}
+[8.602248] (-) TimerEvent: {}
+[8.604907] (auto_control) JobProgress: {'identifier': 'auto_control', 'progress': 'install'}
+[8.637424] (auto_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/moonly/fpv_ros2_workspace/build/auto_control'], 'cwd': '/home/moonly/fpv_ros2_workspace/build/auto_control', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1696,unix/Mi-laptop:/tmp/.ICE-unix/1696'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.90.0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1580'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/moonly/fpv_ros2_workspace/build/auto_control'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LOGNAME', 'moonly'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('WINDOWPATH', '2'), ('HOME', '/home/moonly'), ('USERNAME', 'moonly'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('AMENT_PREFIX_PATH', '/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/dgps_ros2:/home/moonly/fpv_ros2_workspace/install/dgps_msgs:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/dgps_ros2:/home/moonly/fpv_ros2_workspace/install/dgps_msgs:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/fpv_ros2_workspace/install'), ('INVOCATION_ID', '2cdde236d827434db515be6ede655e11'), ('MANAGERPID', '1329'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages:/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moonly'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-01004b7191.sock'), ('DISPLAY', ':0'), ('SHLVL', '1'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('http_proxy', 'http://127.0.0.1:20171'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('LD_LIBRARY_PATH', '/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib:/home/moonly/fpv_ros2_workspace/install/dgps_ros2/lib:/home/moonly/fpv_ros2_workspace/install/dgps_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('TCL_LIBRARY', ':/home/ns-allinone-2.35/tcl8.5.10/library:/home/ns-allinone-2.35/tcl8.5.10/library'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:46302'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.8.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ns-allinone-2.35/bin:/home/ns-allinone-2.35/tcl8.5.10/unix:/home/ns-allinone-2.35/tk8.5.10/unix:/opt/gradle/gradle-6.8.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ns-allinone-2.35/bin:/home/ns-allinone-2.35/tcl8.5.10/unix:/home/ns-allinone-2.35/tk8.5.10/unix'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3674'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env')]), 'shell': False}
+[8.668069] (auto_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.670805] (auto_control) StdoutLine: {'line': b'-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/lib/auto_control/auto_control\n'}
+[8.676539] (auto_control) StdoutLine: {'line': b'-- Set runtime path of "/home/moonly/fpv_ros2_workspace/install/auto_control/lib/auto_control/auto_control" to ""\n'}
+[8.677537] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/package_run_dependencies/auto_control\n'}
+[8.677644] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/parent_prefix_path/auto_control\n'}
+[8.677753] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/ament_prefix_path.sh\n'}
+[8.677829] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/ament_prefix_path.dsv\n'}
+[8.677898] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/path.sh\n'}
+[8.678002] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/path.dsv\n'}
+[8.678102] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.bash\n'}
+[8.678176] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.sh\n'}
+[8.678273] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.zsh\n'}
+[8.678354] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.dsv\n'}
+[8.678446] (auto_control) StdoutLine: {'line': b'-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.dsv\n'}
+[8.684491] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/packages/auto_control\n'}
+[8.685658] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/cmake/auto_controlConfig.cmake\n'}
+[8.685938] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/cmake/auto_controlConfig-version.cmake\n'}
+[8.686176] (auto_control) StdoutLine: {'line': b'-- Up-to-date: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.xml\n'}
+[8.686339] (auto_control) CommandEnded: {'returncode': 0}
+[8.705355] (-) TimerEvent: {}
+[8.805853] (-) TimerEvent: {}
+[8.906262] (-) TimerEvent: {}
+[9.006611] (auto_control) JobEnded: {'identifier': 'auto_control', 'rc': 0}
+[9.007202] (-) TimerEvent: {}
+[9.014000] (-) EventReactorShutdown: {}

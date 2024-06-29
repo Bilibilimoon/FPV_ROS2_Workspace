@@ -13,9 +13,9 @@ int main(int argc, char **argv)
     // 创建名为node的智能指针对象
     auto node = rclcpp::Node::make_shared("ManualControl");
     auto manual_control_publisher = node->create_publisher<fpv_msgs::msg::MoonlyFpv>("/manual_control", 10);
-    auto msg_pub_timer = node->create_wall_timer(std::chrono::milliseconds(50), msg_pub);
-    auto model_pub_timer = node->create_wall_timer(std::chrono::milliseconds(50), control_model_pub);
-    auto boat_speed_timer = node->create_wall_timer(std::chrono::milliseconds(50), boat_speed_pub);
+    auto msg_pub_timer = node->create_wall_timer(std::chrono::milliseconds(10), msg_pub);
+    auto model_pub_timer = node->create_wall_timer(std::chrono::milliseconds(10), control_model_pub);
+    auto boat_speed_timer = node->create_wall_timer(std::chrono::milliseconds(10), boat_speed_pub);
 
 
     system("clear"); 
