@@ -1,0 +1,53 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found fpv_msgs: 0.0.0 (/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake)
+-- Found OpenCV: /usr/local (found version "4.9.0") 
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/moonly/fpv_ros2_workspace/src/position_trans/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/moonly/fpv_ros2_workspace/build/position_trans
+[35m[1mScanning dependencies of target position_trans[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/position_trans.dir/src/Position_trans.cpp.o[0m
+In file included from [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:2[m[K:
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:57:31:[m[K [01;31m[Kerror: [m[K‘[01m[KTemp[m[K’ in namespace ‘[01m[Kfpv_msgs::msg[m[K’ does not name a type
+   57 | void sub(const fpv_msgs::msg::[01;31m[KTemp[m[K::SharedPtr msg)
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:57:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+   57 | void sub(const fpv_msgs::msg::Temp::SharedPtr [01;31m[Kmsg[m[K)
+      |                                               [01;31m[K^~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:57:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+   57 | void sub[34m[K([m[Kconst fpv_msgs::msg::Temp::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K)
+      |         [34m[K~[m[K                                    [01;31m[K^[m[K[32m[K~~~[m[K
+      |                                              [32m[K)[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:57:47:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+   57 | void sub(const fpv_msgs::msg::Temp::SharedPtr [01;31m[Kmsg[m[K)
+      |                                               [01;31m[K^~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:16:57:[m[K [01;31m[Kerror: [m[K‘[01m[KTemp[m[K’ is not a member of ‘[01m[Kfpv_msgs::msg[m[K’
+   16 |     auto sub = node->create_subscription<fpv_msgs::msg::[01;31m[KTemp[m[K>("/in",10, sub);
+      |                                                         [01;31m[K^~~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:16:57:[m[K [01;31m[Kerror: [m[K‘[01m[KTemp[m[K’ is not a member of ‘[01m[Kfpv_msgs::msg[m[K’
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:16:73:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Ksub[m[K’ before deduction of ‘[01m[Kauto[m[K’
+   16 |     auto sub = node->create_subscription<fpv_msgs::msg::Temp>("/in",10, [01;31m[Ksub[m[K);
+      |                                                                         [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/position_trans.dir/build.make:63：CMakeFiles/position_trans.dir/src/Position_trans.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/position_trans.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

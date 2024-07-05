@@ -1,0 +1,32 @@
+[0.093s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/auto_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/moonly/fpv_ros2_workspace/src/auto_control -DCMAKE_INSTALL_PREFIX=/home/moonly/fpv_ros2_workspace/install/auto_control
+[0.174s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.174s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.798s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.164s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.336s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.188s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.194s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.943s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.260s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.756s] CMake Error at CMakeLists.txt:47 (find_package):
+[3.758s]   By not providing "Findfpv_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[3.758s]   asked CMake to find a package configuration file provided by "fpv_msgs",
+[3.759s]   but CMake did not find one.
+[3.759s] 
+[3.760s]   Could not find a package configuration file provided by "fpv_msgs" with any
+[3.760s]   of the following names:
+[3.761s] 
+[3.761s]     fpv_msgsConfig.cmake
+[3.761s]     fpv_msgs-config.cmake
+[3.762s] 
+[3.762s]   Add the installation prefix of "fpv_msgs" to CMAKE_PREFIX_PATH or set
+[3.763s]   "fpv_msgs_DIR" to a directory containing one of the above files.  If
+[3.763s]   "fpv_msgs" provides a separate development package or SDK, be sure it has
+[3.764s]   been installed.
+[3.764s] 
+[3.765s] 
+[3.770s] -- Configuring incomplete, errors occurred!
+[3.771s] See also "/home/moonly/fpv_ros2_workspace/build/auto_control/CMakeFiles/CMakeOutput.log".
+[3.771s] See also "/home/moonly/fpv_ros2_workspace/build/auto_control/CMakeFiles/CMakeError.log".

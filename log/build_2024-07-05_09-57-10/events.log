@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (-) JobUnselected: {'identifier': 'auto_control'}
+[0.000222] (-) JobUnselected: {'identifier': 'fpv_msg_monitor'}
+[0.000234] (-) JobUnselected: {'identifier': 'fpv_msgs'}
+[0.000244] (-) JobUnselected: {'identifier': 'manual_control'}
+[0.000254] (-) JobUnselected: {'identifier': 'mavlink_pub'}
+[0.000264] (-) JobUnselected: {'identifier': 'pwm_trans'}
+[0.000276] (position_trans) JobQueued: {'identifier': 'position_trans', 'dependencies': OrderedDict()}
+[0.000289] (position_trans) JobStarted: {'identifier': 'position_trans'}
+[0.017358] (position_trans) JobProgress: {'identifier': 'position_trans', 'progress': 'cmake'}
+[0.017536] (position_trans) JobProgress: {'identifier': 'position_trans', 'progress': 'build'}
+[0.017997] (position_trans) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/moonly/fpv_ros2_workspace/build/position_trans', '--', '-j8', '-l8'], 'cwd': '/home/moonly/fpv_ros2_workspace/build/position_trans', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('SESSION_MANAGER', 'local/Mi-laptop:@/tmp/.ICE-unix/1676,unix/Mi-laptop:/tmp/.ICE-unix/1676'), ('QT_ACCESSIBILITY', '1'), ('COLORTERM', 'truecolor'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_MENU_PREFIX', 'gnome-'), ('TERM_PROGRAM_VERSION', '1.90.2'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('GTK_IM_MODULE', 'fcitx'), ('ROS_PYTHON_VERSION', '3'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('QT4_IM_MODULE', 'fcitx'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('JAVA_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('LC_NAME', 'zh_CN.UTF-8'), ('JRE_HOME', '/usr/lib/jvm/jdk-11.0.10'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('TERMINATOR_UUID', 'urn:uuid:b8d13c71-b2be-444c-a710-eac0cadd68f9'), ('XMODIFIERS', '@im=fcitx'), ('DESKTOP_SESSION', 'ubuntu'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1565'), ('GTK_MODULES', 'gail:atk-bridge'), ('PWD', '/home/moonly/fpv_ros2_workspace/build/position_trans'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('LOGNAME', 'moonly'), ('XDG_SESSION_TYPE', 'x11'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('WINDOWPATH', '2'), ('HOME', '/home/moonly'), ('USERNAME', 'moonly'), ('LANG', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VTE_VERSION', '6003'), ('AMENT_PREFIX_PATH', '/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/home/moonly/px4_ros_com_ros2/install/dgps_ros2:/home/moonly/px4_ros_com_ros2/install/dgps_msgs:/home/moonly/moonly_workspace/install/test_package:/home/moonly/moonly_workspace/install/speed_smooth:/home/moonly/moonly_workspace/install/new_map:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/moonly_workspace/install/keyboard_control:/home/moonly/moonly_workspace/install/auto_cruise:/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('CMAKE_PREFIX_PATH', '/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/FastDDS-2.0.2/install/fastrtps:/home/moonly/px4_ros_com_ros2/install/px4_ros_com:/home/moonly/px4_ros_com_ros2/install/boat_transform:/home/moonly/px4_ros_com_ros2/install/px4_msgs:/home/moonly/px4_ros_com_ros2/install/dgps_ros2:/home/moonly/px4_ros_com_ros2/install/dgps_msgs:/home/moonly/moonly_workspace/install/test_package:/home/moonly/moonly_workspace/install/speed_smooth:/home/moonly/moonly_workspace/install/new_map:/home/moonly/moonly_workspace/install/moonly_msgs:/home/moonly/moonly_workspace/install/keyboard_control:/home/moonly/moonly_workspace/install/auto_cruise:/home/moonly/fpv_ros2_workspace/install/pwm_trans:/home/moonly/fpv_ros2_workspace/install/position_trans:/home/moonly/fpv_ros2_workspace/install/mavlink_pub:/home/moonly/fpv_ros2_workspace/install/manual_control:/home/moonly/fpv_ros2_workspace/install/fpv_msgs:/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor:/home/moonly/fpv_ros2_workspace/install/auto_control:/opt/ros/foxy'), ('https_proxy', 'http://127.0.0.1:20171'), ('COLCON_PREFIX_PATH', '/home/moonly/fpv_ros2_workspace/install:/home/moonly/FastDDS-2.0.2/install:/home/moonly/Fast-RTPS-Gen/install:/home/moonly/px4_ros_com_ros2/install:/home/moonly/moonly_workspace/install'), ('INVOCATION_ID', 'a53e6dc8f6bd475281ad12d4845b6cf9'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('MANAGERPID', '1316'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CLUTTER_IM_MODULE', 'fcitx'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib/python3.8/site-packages:/home/moonly/px4_ros_com_ros2/install/dgps_msgs/lib/python3.8/site-packages:/home/moonly/moonly_workspace/install/moonly_msgs/lib/python3.8/site-packages:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('TERM', 'xterm-256color'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'moonly'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-01004b7191.sock'), ('DISPLAY', ':0'), ('SHLVL', '3'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('http_proxy', 'http://127.0.0.1:20171'), ('CLASSPATH', '.:/usr/lib/jvm/jdk-11.0.10/lib:/usr/lib/jvm/jdk-11.0.10/lib'), ('LD_LIBRARY_PATH', '/home/moonly/FastDDS-2.0.2/install/fastrtps/lib:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/lib:/home/moonly/px4_ros_com_ros2/install/boat_transform/lib:/home/moonly/px4_ros_com_ros2/install/px4_msgs/lib:/home/moonly/px4_ros_com_ros2/install/dgps_ros2/lib:/home/moonly/px4_ros_com_ros2/install/dgps_msgs/lib:/home/moonly/moonly_workspace/install/moonly_msgs/lib:/home/moonly/fpv_ros2_workspace/install/fpv_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib:/home/ns-allinone-2.35/otcl-1.14:/home/ns-allinone-2.35/lib'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS_LOCALHOST_ONLY', '0'), ('LC_TIME', 'zh_CN.UTF-8'), ('TCL_LIBRARY', ':/home/ns-allinone-2.35/tcl8.5.10/library:/home/ns-allinone-2.35/tcl8.5.10/library'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('JOURNAL_STREAM', '8:51524'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('GDK_BACKEND', 'x11'), ('PATH', '/usr/lib/jvm/jdk-11.0.10/bin:/home/moonly/FastDDS-2.0.2/install/fastrtps/bin:/home/moonly/px4_ros_com_ros2/install/px4_ros_com/bin:/opt/ros/foxy/bin:/usr/lib/jvm/jdk-11.0.10/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/moonly/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gradle/gradle-6.8.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ns-allinone-2.35/bin:/home/ns-allinone-2.35/tcl8.5.10/unix:/home/ns-allinone-2.35/tk8.5.10/unix:/opt/gradle/gradle-6.8.3/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ns-allinone-2.35/bin:/home/ns-allinone-2.35/tcl8.5.10/unix:/home/ns-allinone-2.35/tk8.5.10/unix'), ('GDMSESSION', 'ubuntu'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6238'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/moonly'), ('TERM_PROGRAM', 'vscode'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.040365] (position_trans) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.061084] (position_trans) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099342] (-) TimerEvent: {}
+[0.199625] (-) TimerEvent: {}
+[0.206509] (position_trans) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.272836] (position_trans) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.299744] (-) TimerEvent: {}
+[0.310909] (position_trans) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.314184] (position_trans) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.399853] (-) TimerEvent: {}
+[0.415851] (position_trans) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.452854] (position_trans) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.454490] (position_trans) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499968] (-) TimerEvent: {}
+[0.549088] (position_trans) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.571512] (position_trans) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.600079] (-) TimerEvent: {}
+[0.622991] (position_trans) StdoutLine: {'line': b'-- Found fpv_msgs: 0.0.0 (/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake)\n'}
+[0.635321] (position_trans) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.635694] (position_trans) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.635891] (position_trans) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/moonly/fpv_ros2_workspace/src/position_trans/include\n'}
+[0.635965] (position_trans) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.636375] (position_trans) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.636444] (position_trans) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.636966] (position_trans) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.637710] (position_trans) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.637816] (position_trans) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.637977] (position_trans) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.640977] (position_trans) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.650846] (position_trans) StdoutLine: {'line': b'-- Generating done\n'}
+[0.651764] (position_trans) StdoutLine: {'line': b'-- Build files have been written to: /home/moonly/fpv_ros2_workspace/build/position_trans\n'}
+[0.676709] (position_trans) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target position_trans\x1b[0m\n'}
+[0.700183] (-) TimerEvent: {}
+[0.703459] (position_trans) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/position_trans.dir/src/Position_trans.cpp.o\x1b[0m\n'}
+[0.800297] (-) TimerEvent: {}
+[0.900799] (-) TimerEvent: {}
+[1.001098] (-) TimerEvent: {}
+[1.101414] (-) TimerEvent: {}
+[1.201781] (-) TimerEvent: {}
+[1.302074] (-) TimerEvent: {}
+[1.402396] (-) TimerEvent: {}
+[1.502779] (-) TimerEvent: {}
+[1.603272] (-) TimerEvent: {}
+[1.703970] (-) TimerEvent: {}
+[1.804578] (-) TimerEvent: {}
+[1.905446] (-) TimerEvent: {}
+[2.006163] (-) TimerEvent: {}
+[2.106820] (-) TimerEvent: {}
+[2.207126] (-) TimerEvent: {}
+[2.307425] (-) TimerEvent: {}
+[2.407745] (-) TimerEvent: {}
+[2.499802] (position_trans) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:2\x1b[m\x1b[K:\n'}
+[2.500011] (position_trans) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:57:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTempMsg\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kfpv_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.500062] (position_trans) StderrLine: {'line': b'   57 | void sub(const fpv_msgs::msg::\x1b[01;31m\x1b[KTempMsg\x1b[m\x1b[K::SharedPtr msg)\n'}
+[2.500102] (position_trans) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.500142] (position_trans) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:57:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.500183] (position_trans) StderrLine: {'line': b'   57 | void sub(const fpv_msgs::msg::TempMsg::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[2.500222] (position_trans) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.500259] (position_trans) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:57:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.500299] (position_trans) StderrLine: {'line': b'   57 | void sub\x1b[34m\x1b[K(\x1b[m\x1b[Kconst fpv_msgs::msg::TempMsg::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[2.500339] (position_trans) StderrLine: {'line': b'      |         \x1b[34m\x1b[K~\x1b[m\x1b[K                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[2.500378] (position_trans) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.500416] (position_trans) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:57:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.500457] (position_trans) StderrLine: {'line': b'   57 | void sub(const fpv_msgs::msg::TempMsg::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[2.500498] (position_trans) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.504801] (position_trans) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.505468] (position_trans) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:16:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTemp\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kfpv_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.505592] (position_trans) StderrLine: {'line': b'   16 |     auto sub = node->create_subscription<fpv_msgs::msg::\x1b[01;31m\x1b[KTemp\x1b[m\x1b[K>("/in",10, sub);\n'}
+[2.505684] (position_trans) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.506993] (position_trans) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:16:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTemp\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kfpv_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.507177] (position_trans) StderrLine: {'line': b'\x1b[01m\x1b[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:16:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kuse of \xe2\x80\x98\x1b[01m\x1b[Ksub\x1b[m\x1b[K\xe2\x80\x99 before deduction of \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.507245] (position_trans) StderrLine: {'line': b'   16 |     auto sub = node->create_subscription<fpv_msgs::msg::Temp>("/in",10, \x1b[01;31m\x1b[Ksub\x1b[m\x1b[K);\n'}
+[2.507322] (position_trans) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.507809] (-) TimerEvent: {}
+[2.608018] (-) TimerEvent: {}
+[2.708442] (-) TimerEvent: {}
+[2.808924] (-) TimerEvent: {}
+[2.909540] (-) TimerEvent: {}
+[3.010042] (-) TimerEvent: {}
+[3.110420] (-) TimerEvent: {}
+[3.210836] (-) TimerEvent: {}
+[3.311414] (-) TimerEvent: {}
+[3.334115] (position_trans) StderrLine: {'line': b'make[2]: *** [CMakeFiles/position_trans.dir/build.make:63\xef\xbc\x9aCMakeFiles/position_trans.dir/src/Position_trans.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.334294] (position_trans) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78\xef\xbc\x9aCMakeFiles/position_trans.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.334373] (position_trans) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.335810] (position_trans) CommandEnded: {'returncode': 2}
+[3.373918] (position_trans) JobEnded: {'identifier': 'position_trans', 'rc': 2}
+[3.384580] (-) EventReactorShutdown: {}

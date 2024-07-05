@@ -1,5 +1,0 @@
-[0.076s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/pwm_trans -- -j8 -l8
-[0.122s] [35m[1mScanning dependencies of target pwm_trans[0m
-[0.164s] [ 50%] [32mBuilding CXX object CMakeFiles/pwm_trans.dir/src/Pwm_trans.cpp.o[0m
-[6.214s] [100%] [32m[1mLinking CXX executable pwm_trans[0m
-[6.450s] [100%] Built target pwm_trans

@@ -1,4 +1,6 @@
-//监控打印的消息
+//监控打印的消息		ros2 run mavros mavros_node _fcu_url:=/dev/ttyUSB0
+// ros2 topic echo /mavros/state
+
 #include "rclcpp/rclcpp.hpp"
 #include "fpv_msgs/msg/moonly_fpv.hpp"
 
@@ -39,3 +41,76 @@ int main(int argc, char * argv[])
   rclcpp::shutdown();
   return 0;
 }
+
+
+// #include "rclcpp/rclcpp.hpp"
+// #include "mavros_msgs/msg/mavlink.hpp"
+// #include <cstring>
+
+// void mavlinkCallback(const mavros_msgs::msg::Mavlink::SharedPtr msg) {
+//     // 打印收到的Mavlink消息
+
+//     printf("Received Mavlink message: %s", msg->payload64);
+// }
+
+// int main(int argc, char **argv) {
+//     rclcpp::init(argc, argv);
+//     auto node = rclcpp::Node::make_shared("mavros_listener");
+
+//     // 订阅Mavlink消息
+//     auto sub = node->create_subscription<mavros_msgs::msg::Mavlink>(
+//         "/mavlink/altitude", 10, mavlinkCallback);
+
+//     rclcpp::spin(node);
+
+//     rclcpp::shutdown();
+//     return 0;
+// }
+
+
+// #include "rclcpp/rclcpp.hpp"
+// #include "serial/serial.h"
+ 
+// class SerialNode : public rclcpp::Node
+// {
+// public:
+//     SerialNode() : Node("serial_node")
+//     {
+//         serial::Serial ser;
+//         try
+//         {
+//             ser.setPort("/dev/ttyUSB0");
+//             ser.setBaudrate(115200);
+//             serial::Timeout to = serial::Timeout::simpleTimeout(1000);
+//             ser.setTimeout(to);
+//             ser.open();
+//         }
+//         catch (serial::IOException& e)
+//         {
+//             RCLCPP_ERROR(this->get_logger(), "Failed to open serial port.");
+//         }
+ 
+//         rclcpp::Rate loop_rate(10);
+//         while (rclcpp::ok())
+//         {
+//             // Read data from serial port
+//             if (ser.available())
+//             {
+//                 std::string data = ser.read(ser.available());
+//                 RCLCPP_INFO(this->get_logger(), "Received: %s", data.c_str());
+//             }
+//             // Write data to serial port
+//             // ser.write("Hello, serial!");
+//             loop_rate.sleep();
+//         }
+//     }
+// };
+ 
+// int main(int argc, char** argv)
+// {
+//     rclcpp::init(argc, argv);
+//     auto node = std::make_shared<SerialNode>("lis");
+//     rclcpp::spin(node);
+//     rclcpp::shutdown();
+//     return 0;
+// }

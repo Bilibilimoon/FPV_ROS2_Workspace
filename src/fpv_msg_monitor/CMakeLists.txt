@@ -41,10 +41,12 @@ target_include_directories(fpv_msg_monitor PUBLIC
 
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(mavros_msgs REQUIRED)
+
 
 find_package(fpv_msgs REQUIRED)
 
-ament_target_dependencies(fpv_msg_monitor rclcpp std_msgs fpv_msgs)
+ament_target_dependencies(fpv_msg_monitor rclcpp std_msgs fpv_msgs mavros_msgs)
 
 install(TARGETS
   fpv_msg_monitor

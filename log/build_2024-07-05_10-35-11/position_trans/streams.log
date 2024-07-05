@@ -1,0 +1,26 @@
+[0.035s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8
+[0.087s] [35m[1mScanning dependencies of target position_trans[0m
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/position_trans.dir/src/Position_trans.cpp.o[0m
+[5.351s] [100%] [32m[1mLinking CXX executable position_trans[0m
+[5.585s] [100%] Built target position_trans
+[5.594s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8
+[5.629s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/position_trans
+[5.635s] -- Install configuration: ""
+[5.635s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/lib/position_trans/position_trans
+[5.636s] -- Set runtime path of "/home/moonly/fpv_ros2_workspace/install/position_trans/lib/position_trans/position_trans" to ""
+[5.636s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/package_run_dependencies/position_trans
+[5.636s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/parent_prefix_path/position_trans
+[5.636s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.sh
+[5.636s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.dsv
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.sh
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.dsv
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.bash
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.sh
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.zsh
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.dsv
+[5.637s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.dsv
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/packages/position_trans
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig.cmake
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig-version.cmake
+[5.637s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.xml
+[5.638s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/position_trans

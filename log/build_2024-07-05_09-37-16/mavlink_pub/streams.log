@@ -1,0 +1,20 @@
+[0.084s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/mavlink_pub -- -j8 -l8
+[0.195s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/mavlink_pub -- -j8 -l8
+[0.313s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/mavlink_pub
+[2.934s] -- Install configuration: ""
+[2.935s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/ament_index/resource_index/package_run_dependencies/mavlink_pub
+[2.935s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/ament_index/resource_index/parent_prefix_path/mavlink_pub
+[2.935s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/environment/ament_prefix_path.sh
+[2.935s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/environment/ament_prefix_path.dsv
+[2.935s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/environment/path.sh
+[2.935s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/environment/path.dsv
+[2.937s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/local_setup.bash
+[2.938s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/local_setup.sh
+[2.953s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/local_setup.zsh
+[2.953s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/local_setup.dsv
+[2.954s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.dsv
+[2.954s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/ament_index/resource_index/packages/mavlink_pub
+[2.954s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/cmake/mavlink_pubConfig.cmake
+[2.954s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/cmake/mavlink_pubConfig-version.cmake
+[2.954s] -- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.xml
+[3.036s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/mavlink_pub

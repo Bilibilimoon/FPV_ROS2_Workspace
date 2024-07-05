@@ -1,0 +1,28 @@
+[0.098s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/moonly/fpv_ros2_workspace/src/mavlink_pub -DCMAKE_INSTALL_PREFIX=/home/moonly/fpv_ros2_workspace/install/mavlink_pub
+[0.274s] -- The C compiler identification is GNU 9.4.0
+[0.384s] -- The CXX compiler identification is GNU 9.4.0
+[0.401s] -- Check for working C compiler: /usr/bin/cc
+[0.511s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.512s] -- Detecting C compiler ABI info
+[0.693s] -- Detecting C compiler ABI info - done
+[0.713s] -- Detecting C compile features
+[0.714s] -- Detecting C compile features - done
+[0.719s] -- Check for working CXX compiler: /usr/bin/c++
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.881s] -- Detecting CXX compiler ABI info
+[1.060s] -- Detecting CXX compiler ABI info - done
+[1.077s] -- Detecting CXX compile features
+[1.078s] -- Detecting CXX compile features - done
+[1.081s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.130s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.131s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.549s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.765s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.767s] -- Added test 'lint_cmake' to check CMake code style
+[1.769s] -- Added test 'xmllint' to check XML markup files
+[1.784s] -- Configuring done
+[1.787s] -- Generating done
+[1.801s] -- Build files have been written to: /home/moonly/fpv_ros2_workspace/build/mavlink_pub
+[1.822s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/moonly/fpv_ros2_workspace/src/mavlink_pub -DCMAKE_INSTALL_PREFIX=/home/moonly/fpv_ros2_workspace/install/mavlink_pub
+[1.825s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/mavlink_pub -- -j8 -l8
+[3.482s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/mavlink_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/mavlink_pub -- -j8 -l8

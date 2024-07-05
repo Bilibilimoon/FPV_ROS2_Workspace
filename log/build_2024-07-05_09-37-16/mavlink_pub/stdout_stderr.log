@@ -1,0 +1,16 @@
+-- Install configuration: ""
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/ament_index/resource_index/package_run_dependencies/mavlink_pub
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/ament_index/resource_index/parent_prefix_path/mavlink_pub
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/environment/ament_prefix_path.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/environment/ament_prefix_path.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/environment/path.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/environment/path.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/local_setup.bash
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/local_setup.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/local_setup.zsh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/local_setup.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/ament_index/resource_index/packages/mavlink_pub
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/cmake/mavlink_pubConfig.cmake
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/cmake/mavlink_pubConfig-version.cmake
+-- Installing: /home/moonly/fpv_ros2_workspace/install/mavlink_pub/share/mavlink_pub/package.xml

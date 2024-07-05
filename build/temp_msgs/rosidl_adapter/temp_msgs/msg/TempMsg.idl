@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from temp_msgs/msg/TempMsg.msg
+// generated code does not contain a copyright notice
+
+
+module temp_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "用来测试的msg")
+    struct TempMsg {
+      double left_up_w;
+
+      double left_up_j;
+
+      double right_up_w;
+
+      double right_up_j;
+
+      double left_down_w;
+
+      double left_down_j;
+
+      double right_down_w;
+
+      double right_down_j;
+
+      double x_min;
+
+      double y_min;
+
+      double x_max;
+
+      double y_max;
+
+      double output_w;
+
+      double output_j;
+    };
+  };
+};

@@ -92,7 +92,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfpv_msgs__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfpv_msgs__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/opt/ros/foxy/lib:/home/moonly/fpv_ros2_workspace/build/fpv_msgs:"
+         OLD_RPATH "/home/moonly/FastDDS-2.0.2/install/fastrtps/lib:/opt/ros/foxy/lib:/home/moonly/fpv_ros2_workspace/build/fpv_msgs:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfpv_msgs__rosidl_typesupport_fastrtps_c.so")
@@ -119,7 +119,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfpv_msgs__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfpv_msgs__rosidl_typesupport_fastrtps_cpp.so"
-         OLD_RPATH "/opt/ros/foxy/lib:"
+         OLD_RPATH "/home/moonly/FastDDS-2.0.2/install/fastrtps/lib:/opt/ros/foxy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfpv_msgs__rosidl_typesupport_fastrtps_cpp.so")
@@ -270,7 +270,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/fpv_msgs/fpv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/fpv_msgs/fpv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/moonly/fpv_ros2_workspace/build/fpv_msgs/rosidl_generator_py/fpv_msgs:/home/moonly/fpv_ros2_workspace/build/fpv_msgs:/opt/ros/foxy/lib:"
+         OLD_RPATH "/home/moonly/fpv_ros2_workspace/build/fpv_msgs/rosidl_generator_py/fpv_msgs:/home/moonly/fpv_ros2_workspace/build/fpv_msgs:/home/moonly/FastDDS-2.0.2/install/fastrtps/lib:/opt/ros/foxy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/fpv_msgs/fpv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")

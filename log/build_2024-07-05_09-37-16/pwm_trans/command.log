@@ -1,0 +1,1 @@
+Invoking command in '/home/moonly/fpv_ros2_workspace/build/pwm_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/moonly/fpv_ros2_workspace/src/pwm_trans -DCMAKE_INSTALL_PREFIX=/home/moonly/fpv_ros2_workspace/install/pwm_trans

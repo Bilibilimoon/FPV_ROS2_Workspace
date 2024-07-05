@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'auto_control'}
+[0.000360] (-) JobUnselected: {'identifier': 'fpv_msg_monitor'}
+[0.000542] (-) JobUnselected: {'identifier': 'fpv_msgs'}
+[0.000594] (-) JobUnselected: {'identifier': 'fpv_msgs'}
+[0.000632] (-) JobUnselected: {'identifier': 'manual_control'}
+[0.000672] (-) JobUnselected: {'identifier': 'mavlink_pub'}
+[0.000721] (-) JobUnselected: {'identifier': 'position_trans'}
+[0.000992] (-) JobUnselected: {'identifier': 'pwm_trans'}
+[0.001435] (-) EventReactorShutdown: {}

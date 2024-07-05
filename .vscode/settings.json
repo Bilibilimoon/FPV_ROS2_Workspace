@@ -12,6 +12,7 @@
         "/opt/ros/foxy/lib/python3.8/site-packages"
     ],
     "files.associations": {
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "string": "cpp"
     }
 }

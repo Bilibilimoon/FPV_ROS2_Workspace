@@ -1,0 +1,51 @@
+[0.077s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/manual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/manual_control -- -j8 -l8
+[0.277s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.376s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.038s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.498s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.472s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.475s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.702s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.786s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.892s] -- Found fpv_msgs: 0.0.0 (/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake)
+[4.912s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.913s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.914s] -- Configured cppcheck include dirs: /home/moonly/fpv_ros2_workspace/src/manual_control/include
+[4.914s] -- Configured cppcheck exclude dirs and/or files: 
+[4.915s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.915s] -- Configured cpplint exclude dirs and/or files: 
+[4.915s] -- Added test 'lint_cmake' to check CMake code style
+[4.917s] -- Added test 'uncrustify' to check C / C++ code style
+[4.917s] -- Configured uncrustify additional arguments: 
+[4.917s] -- Added test 'xmllint' to check XML markup files
+[4.921s] -- Configuring done
+[4.933s] -- Generating done
+[4.935s] -- Build files have been written to: /home/moonly/fpv_ros2_workspace/build/manual_control
+[4.990s] [35m[1mScanning dependencies of target manual_control[0m
+[5.031s] [ 50%] [32mBuilding CXX object CMakeFiles/manual_control.dir/src/Manual_control.cpp.o[0m
+[9.447s] [100%] [32m[1mLinking CXX executable manual_control[0m
+[9.664s] [100%] Built target manual_control
+[9.674s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/manual_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/manual_control -- -j8 -l8
+[9.715s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/manual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/manual_control
+[9.726s] -- Install configuration: ""
+[9.726s] -- Installing: /home/moonly/fpv_ros2_workspace/install/manual_control/lib/manual_control/manual_control
+[9.728s] -- Set runtime path of "/home/moonly/fpv_ros2_workspace/install/manual_control/lib/manual_control/manual_control" to ""
+[9.728s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/ament_index/resource_index/package_run_dependencies/manual_control
+[9.729s] -- Installing: /home/moonly/fpv_ros2_workspace/install/manual_control/share/ament_index/resource_index/parent_prefix_path/manual_control
+[9.729s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/environment/ament_prefix_path.sh
+[9.729s] -- Installing: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/environment/ament_prefix_path.dsv
+[9.729s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/environment/path.sh
+[9.729s] -- Installing: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/environment/path.dsv
+[9.729s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/local_setup.bash
+[9.729s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/local_setup.sh
+[9.729s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/local_setup.zsh
+[9.729s] -- Installing: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/local_setup.dsv
+[9.729s] -- Installing: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.dsv
+[9.730s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/ament_index/resource_index/packages/manual_control
+[9.730s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/cmake/manual_controlConfig.cmake
+[9.730s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/cmake/manual_controlConfig-version.cmake
+[9.730s] -- Up-to-date: /home/moonly/fpv_ros2_workspace/install/manual_control/share/manual_control/package.xml
+[9.732s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/manual_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/manual_control

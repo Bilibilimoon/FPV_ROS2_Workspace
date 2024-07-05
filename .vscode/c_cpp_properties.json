@@ -15,7 +15,9 @@
                 "/home/moonly/fpv_ros2_workspace/src/pwm_trans/include/**",
                 "/usr/include/**",
                 "${workspaceFolder}/src/auto_control/include",
-                "${workspaceFolder}/src/manual_control/include"
+                "${workspaceFolder}/src/manual_control/include",
+                "${workspaceFolder}/src/position_trans/include",
+                "${workspaceFolder}/build/temp_msgs/rosidl_generator_cpp"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

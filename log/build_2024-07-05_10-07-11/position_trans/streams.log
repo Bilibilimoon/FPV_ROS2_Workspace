@@ -1,0 +1,31 @@
+[0.028s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8
+[0.075s] [35m[1mScanning dependencies of target position_trans[0m
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/position_trans.dir/src/Position_trans.cpp.o[0m
+[2.082s] In file included from [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:2[m[K:
+[2.082s] [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:[m[K In function ‘[01m[Kvoid sub_callback(temp_msgs::msg::TempMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.082s] [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:59:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.082s]    59 | void sub_callback([01;35m[Kconst temp_msgs::msg::TempMsg::SharedPtr msg[m[K)
+[2.082s]       |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.636s] [100%] [32m[1mLinking CXX executable position_trans[0m
+[5.887s] [100%] Built target position_trans
+[5.897s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8
+[5.937s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/position_trans
+[5.946s] -- Install configuration: ""
+[5.947s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/lib/position_trans/position_trans
+[5.949s] -- Set runtime path of "/home/moonly/fpv_ros2_workspace/install/position_trans/lib/position_trans/position_trans" to ""
+[5.949s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/package_run_dependencies/position_trans
+[5.949s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/parent_prefix_path/position_trans
+[5.949s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.sh
+[5.949s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.dsv
+[5.949s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.sh
+[5.949s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.dsv
+[5.949s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.bash
+[5.949s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.sh
+[5.950s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.zsh
+[5.950s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.dsv
+[5.950s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.dsv
+[5.950s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/packages/position_trans
+[5.950s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig.cmake
+[5.950s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig-version.cmake
+[5.950s] -- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.xml
+[5.952s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --install /home/moonly/fpv_ros2_workspace/build/position_trans

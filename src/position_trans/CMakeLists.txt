@@ -32,4 +32,27 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+add_executable(position_trans src/Position_trans.cpp)
+
+target_include_directories(position_trans PUBLIC
+  include
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+# 查找依赖项
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(fpv_msgs REQUIRED)
+find_package(temp_msgs REQUIRED)
+find_package(OpenCV REQUIRED)
+
+ament_target_dependencies(position_trans rclcpp geometry_msgs sensor_msgs std_msgs fpv_msgs temp_msgs OpenCV)
+
+install(TARGETS
+  position_trans
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()

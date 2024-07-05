@@ -1,0 +1,31 @@
+[0.077s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/moonly/fpv_ros2_workspace/src/fpv_msg_monitor -DCMAKE_INSTALL_PREFIX=/home/moonly/fpv_ros2_workspace/install/fpv_msg_monitor
+[0.155s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.155s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.870s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.094s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.223s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.748s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.750s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.194s] -- Found mavros_msgs: 2.4.0 (/opt/ros/foxy/share/mavros_msgs/cmake)
+[4.203s] CMake Error at CMakeLists.txt:47 (find_package):
+[4.203s]   By not providing "Findfpv_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[4.203s]   asked CMake to find a package configuration file provided by "fpv_msgs",
+[4.203s]   but CMake did not find one.
+[4.203s] 
+[4.203s]   Could not find a package configuration file provided by "fpv_msgs" with any
+[4.203s]   of the following names:
+[4.203s] 
+[4.203s]     fpv_msgsConfig.cmake
+[4.203s]     fpv_msgs-config.cmake
+[4.204s] 
+[4.204s]   Add the installation prefix of "fpv_msgs" to CMAKE_PREFIX_PATH or set
+[4.204s]   "fpv_msgs_DIR" to a directory containing one of the above files.  If
+[4.204s]   "fpv_msgs" provides a separate development package or SDK, be sure it has
+[4.204s]   been installed.
+[4.204s] 
+[4.204s] 
+[4.204s] -- Configuring incomplete, errors occurred!
+[4.204s] See also "/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor/CMakeFiles/CMakeOutput.log".
+[4.204s] See also "/home/moonly/fpv_ros2_workspace/build/fpv_msg_monitor/CMakeFiles/CMakeError.log".

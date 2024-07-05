@@ -1,0 +1,58 @@
+[0.090s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/manual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake /home/moonly/fpv_ros2_workspace/src/manual_control -DCMAKE_INSTALL_PREFIX=/home/moonly/fpv_ros2_workspace/install/manual_control
+[0.328s] -- The C compiler identification is GNU 9.4.0
+[0.420s] -- The CXX compiler identification is GNU 9.4.0
+[0.428s] -- Check for working C compiler: /usr/bin/cc
+[0.550s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.551s] -- Detecting C compiler ABI info
+[0.708s] -- Detecting C compiler ABI info - done
+[0.729s] -- Detecting C compile features
+[0.730s] -- Detecting C compile features - done
+[0.738s] -- Check for working CXX compiler: /usr/bin/c++
+[0.902s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.904s] -- Detecting CXX compiler ABI info
+[1.079s] -- Detecting CXX compiler ABI info - done
+[1.097s] -- Detecting CXX compile features
+[1.110s] -- Detecting CXX compile features - done
+[1.119s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.176s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.693s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.885s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.011s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.028s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.205s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.265s] -- Found FastRTPS: /home/moonly/FastDDS-2.0.2/install/fastrtps/include  
+[2.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.543s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.546s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.548s] -- Looking for pthread.h
+[2.672s] -- Looking for pthread.h - found
+[2.672s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.789s] -- Looking for pthread_create in pthreads
+[2.940s] -- Looking for pthread_create in pthreads - not found
+[2.940s] -- Looking for pthread_create in pthread
+[3.073s] -- Looking for pthread_create in pthread - found
+[3.073s] -- Found Threads: TRUE  
+[3.388s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.446s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.559s] CMake Error at CMakeLists.txt:47 (find_package):
+[3.560s]   By not providing "Findfpv_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[3.560s]   asked CMake to find a package configuration file provided by "fpv_msgs",
+[3.560s]   but CMake did not find one.
+[3.560s] 
+[3.560s]   Could not find a package configuration file provided by "fpv_msgs" with any
+[3.560s]   of the following names:
+[3.560s] 
+[3.560s]     fpv_msgsConfig.cmake
+[3.560s]     fpv_msgs-config.cmake
+[3.560s] 
+[3.560s]   Add the installation prefix of "fpv_msgs" to CMAKE_PREFIX_PATH or set
+[3.560s]   "fpv_msgs_DIR" to a directory containing one of the above files.  If
+[3.561s]   "fpv_msgs" provides a separate development package or SDK, be sure it has
+[3.561s]   been installed.
+[3.561s] 
+[3.561s] 
+[3.562s] -- Configuring incomplete, errors occurred!
+[3.562s] See also "/home/moonly/fpv_ros2_workspace/build/manual_control/CMakeFiles/CMakeOutput.log".
+[3.562s] See also "/home/moonly/fpv_ros2_workspace/build/manual_control/CMakeFiles/CMakeError.log".

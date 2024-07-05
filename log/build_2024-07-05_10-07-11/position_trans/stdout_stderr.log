@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target position_trans[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/position_trans.dir/src/Position_trans.cpp.o[0m
+In file included from [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:2[m[K:
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:[m[K In function ‘[01m[Kvoid sub_callback(temp_msgs::msg::TempMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:59:60:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   59 | void sub_callback([01;35m[Kconst temp_msgs::msg::TempMsg::SharedPtr msg[m[K)
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable position_trans[0m
+[100%] Built target position_trans
+-- Install configuration: ""
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/lib/position_trans/position_trans
+-- Set runtime path of "/home/moonly/fpv_ros2_workspace/install/position_trans/lib/position_trans/position_trans" to ""
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/package_run_dependencies/position_trans
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/parent_prefix_path/position_trans
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.bash
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.zsh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/packages/position_trans
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig.cmake
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig-version.cmake
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.xml

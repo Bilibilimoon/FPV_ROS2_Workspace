@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found fpv_msgs: 0.0.0 (/home/moonly/fpv_ros2_workspace/install/fpv_msgs/share/fpv_msgs/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/moonly/fpv_ros2_workspace/src/auto_control/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/moonly/fpv_ros2_workspace/build/auto_control
+[35m[1mScanning dependencies of target auto_control[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/auto_control.dir/src/Auto_control.cpp.o[0m
+In file included from [01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/src/Auto_control.cpp:3[m[K:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:[m[K In function ‘[01m[Kvoid* take_off(void*)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:123:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  123 | void *take_off([01;35m[Kvoid *arg[m[K)
+      |                [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:[m[K In function ‘[01m[Kvoid* land(void*)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:144:18:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  144 | void *land([01;35m[Kvoid *arg[m[K)
+      |            [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:[m[K In function ‘[01m[Kvoid* auto_fpv_control(void*)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:165:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  165 | void *auto_fpv_control([01;35m[Kvoid *arg[m[K)
+      |                        [01;35m[K~~~~~~^~~[m[K
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:[m[K In function ‘[01m[Kvoid* auto_boat_control(void*)[m[K’:
+[01m[K/home/moonly/fpv_ros2_workspace/src/auto_control/include/Auto_control.hpp:282:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  282 | void *auto_boat_control([01;35m[Kvoid *arg[m[K)
+      |                         [01;35m[K~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable auto_control[0m
+[100%] Built target auto_control

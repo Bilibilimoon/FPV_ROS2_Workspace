@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/moonly/fpv_ros2_workspace/build/position_trans
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/position_trans.dir/all
 
 .PHONY : all
 
@@ -63,10 +63,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/position_trans.dir/clean
 clean: CMakeFiles/position_trans_uninstall.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/position_trans.dir
+
+# All Build rule for target.
+CMakeFiles/position_trans.dir/all:
+	$(MAKE) -f CMakeFiles/position_trans.dir/build.make CMakeFiles/position_trans.dir/depend
+	$(MAKE) -f CMakeFiles/position_trans.dir/build.make CMakeFiles/position_trans.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moonly/fpv_ros2_workspace/build/position_trans/CMakeFiles --progress-num=1,2 "Built target position_trans"
+.PHONY : CMakeFiles/position_trans.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/position_trans.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moonly/fpv_ros2_workspace/build/position_trans/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/position_trans.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moonly/fpv_ros2_workspace/build/position_trans/CMakeFiles 0
+.PHONY : CMakeFiles/position_trans.dir/rule
+
+# Convenience name for target.
+position_trans: CMakeFiles/position_trans.dir/rule
+
+.PHONY : position_trans
+
+# clean rule for target.
+CMakeFiles/position_trans.dir/clean:
+	$(MAKE) -f CMakeFiles/position_trans.dir/build.make CMakeFiles/position_trans.dir/clean
+.PHONY : CMakeFiles/position_trans.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/position_trans_uninstall.dir

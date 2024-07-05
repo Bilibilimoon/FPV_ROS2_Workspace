@@ -1,0 +1,16 @@
+[0.026s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/position_trans': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8
+[0.071s] [35m[1mScanning dependencies of target position_trans[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/position_trans.dir/src/Position_trans.cpp.o[0m
+[2.417s] In file included from [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:2[m[K:
+[2.417s] [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:[m[K In function ‘[01m[Kvoid sub(temp_msgs::msg::TempMsg_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.417s] [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/include/Position_trans.hpp:59:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.417s]    59 | void sub([01;35m[Kconst temp_msgs::msg::TempMsg::SharedPtr msg[m[K)
+[2.417s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.423s] [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.424s] [01m[K/home/moonly/fpv_ros2_workspace/src/position_trans/src/Position_trans.cpp:16:77:[m[K [01;31m[Kerror: [m[Kuse of ‘[01m[Ksub[m[K’ before deduction of ‘[01m[Kauto[m[K’
+[2.424s]    16 |     auto sub = node->create_subscription<temp_msgs::msg::TempMsg>("/in",10, [01;31m[Ksub[m[K);
+[2.424s]       |                                                                             [01;31m[K^~~[m[K
+[3.533s] make[2]: *** [CMakeFiles/position_trans.dir/build.make:63：CMakeFiles/position_trans.dir/src/Position_trans.cpp.o] 错误 1
+[3.533s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/position_trans.dir/all] 错误 2
+[3.534s] make: *** [Makefile:141：all] 错误 2
+[3.535s] Invoked command in '/home/moonly/fpv_ros2_workspace/build/position_trans' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/position_trans -- -j8 -l8

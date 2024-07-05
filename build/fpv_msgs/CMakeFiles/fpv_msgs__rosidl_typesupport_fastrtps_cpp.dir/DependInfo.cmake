@@ -24,6 +24,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "rosidl_generator_cpp"
   "rosidl_typesupport_fastrtps_cpp"
   "/opt/ros/foxy/include"
+  "/home/moonly/FastDDS-2.0.2/install/fastrtps/include"
   "/opt/ros/foxy/include/foonathan_memory"
   )
 

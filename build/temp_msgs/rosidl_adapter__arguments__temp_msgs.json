@@ -1,0 +1,6 @@
+{
+  "package_name": "temp_msgs",
+  "non_idl_tuples": [
+    "/home/moonly/fpv_ros2_workspace/src/temp_msgs:msg/TempMsg.msg"
+  ]
+}

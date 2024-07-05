@@ -101,7 +101,7 @@ libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/librmw.so
 libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/librcutils.so
 libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/librosidl_typesupport_fastrtps_cpp.so
-libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/libfastrtps.so.2.1.4
+libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /home/moonly/FastDDS-2.0.2/install/fastrtps/lib/libfastrtps.so.2.0.2
 libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /opt/ros/foxy/lib/libfoonathan_memory-0.7.1.a
 libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libfpv_msgs__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so

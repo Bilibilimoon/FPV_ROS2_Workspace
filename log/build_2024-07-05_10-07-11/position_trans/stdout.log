@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target position_trans[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/position_trans.dir/src/Position_trans.cpp.o[0m
+[100%] [32m[1mLinking CXX executable position_trans[0m
+[100%] Built target position_trans
+-- Install configuration: ""
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/lib/position_trans/position_trans
+-- Set runtime path of "/home/moonly/fpv_ros2_workspace/install/position_trans/lib/position_trans/position_trans" to ""
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/package_run_dependencies/position_trans
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/parent_prefix_path/position_trans
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/ament_prefix_path.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/environment/path.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.bash
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.zsh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/local_setup.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/ament_index/resource_index/packages/position_trans
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig.cmake
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/cmake/position_transConfig-version.cmake
+-- Installing: /home/moonly/fpv_ros2_workspace/install/position_trans/share/position_trans/package.xml

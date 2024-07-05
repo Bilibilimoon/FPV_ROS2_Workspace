@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named position_trans
+
+# Build rule for target.
+position_trans: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 position_trans
+.PHONY : position_trans
+
+# fast build rule for target.
+position_trans/fast:
+	$(MAKE) -f CMakeFiles/position_trans.dir/build.make CMakeFiles/position_trans.dir/build
+.PHONY : position_trans/fast
+
+#=============================================================================
 # Target rules for targets named position_trans_uninstall
 
 # Build rule for target.
@@ -193,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/Position_trans.o: src/Position_trans.cpp.o
+
+.PHONY : src/Position_trans.o
+
+# target to build an object file
+src/Position_trans.cpp.o:
+	$(MAKE) -f CMakeFiles/position_trans.dir/build.make CMakeFiles/position_trans.dir/src/Position_trans.cpp.o
+.PHONY : src/Position_trans.cpp.o
+
+src/Position_trans.i: src/Position_trans.cpp.i
+
+.PHONY : src/Position_trans.i
+
+# target to preprocess a source file
+src/Position_trans.cpp.i:
+	$(MAKE) -f CMakeFiles/position_trans.dir/build.make CMakeFiles/position_trans.dir/src/Position_trans.cpp.i
+.PHONY : src/Position_trans.cpp.i
+
+src/Position_trans.s: src/Position_trans.cpp.s
+
+.PHONY : src/Position_trans.s
+
+# target to generate assembly for a file
+src/Position_trans.cpp.s:
+	$(MAKE) -f CMakeFiles/position_trans.dir/build.make CMakeFiles/position_trans.dir/src/Position_trans.cpp.s
+.PHONY : src/Position_trans.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -205,9 +245,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... position_trans"
 	@echo "... install/local"
 	@echo "... position_trans_uninstall"
 	@echo "... uninstall"
+	@echo "... src/Position_trans.o"
+	@echo "... src/Position_trans.i"
+	@echo "... src/Position_trans.s"
 .PHONY : help
 
 

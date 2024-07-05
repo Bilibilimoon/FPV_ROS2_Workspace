@@ -239,13 +239,13 @@ FastCDR_LIBRARY_DEBUG:FILEPATH=FastCDR_LIBRARY_DEBUG-NOTFOUND
 FastCDR_LIBRARY_RELEASE:FILEPATH=/opt/ros/foxy/lib/libfastcdr.so
 
 //Path to a file.
-FastRTPS_INCLUDE_DIR:PATH=/opt/ros/foxy/include
+FastRTPS_INCLUDE_DIR:PATH=/home/moonly/FastDDS-2.0.2/install/fastrtps/include
 
 //Path to a library.
 FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
 
 //Path to a library.
-FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/foxy/lib/libfastrtps.so
+FastRTPS_LIBRARY_RELEASE:FILEPATH=/home/moonly/FastDDS-2.0.2/install/fastrtps/lib/libfastrtps.so
 
 //Path to a library.
 OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -374,7 +374,7 @@ builtin_interfaces_DIR:PATH=/opt/ros/foxy/share/builtin_interfaces/cmake
 fastcdr_DIR:PATH=/opt/ros/foxy/lib/cmake/fastcdr
 
 //The directory containing a CMake configuration file for fastrtps.
-fastrtps_DIR:PATH=/opt/ros/foxy/share/fastrtps/cmake
+fastrtps_DIR:PATH=/home/moonly/FastDDS-2.0.2/install/fastrtps/share/fastrtps/cmake
 
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
 fastrtps_cmake_module_DIR:PATH=/opt/ros/foxy/share/fastrtps_cmake_module/cmake
@@ -662,7 +662,7 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding FastRTPS
-FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/foxy/include][/opt/ros/foxy/lib/libfastrtps.so;/opt/ros/foxy/lib/libfastcdr.so][v()]
+FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/home/moonly/FastDDS-2.0.2/install/fastrtps/include][/home/moonly/FastDDS-2.0.2/install/fastrtps/lib/libfastrtps.so;/opt/ros/foxy/lib/libfastcdr.so][v()]
 //Details about finding OpenSSL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v1.1.1f()]
 //Details about finding PythonInterp

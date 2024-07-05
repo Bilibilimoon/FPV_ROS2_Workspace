@@ -1,0 +1,19 @@
+[100%] Built target auto_control
+-- Install configuration: ""
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/lib/auto_control/auto_control
+-- Set runtime path of "/home/moonly/fpv_ros2_workspace/install/auto_control/lib/auto_control/auto_control" to ""
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/package_run_dependencies/auto_control
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/parent_prefix_path/auto_control
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/ament_prefix_path.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/ament_prefix_path.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/path.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/environment/path.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.bash
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.sh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.zsh
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/local_setup.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.dsv
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/ament_index/resource_index/packages/auto_control
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/cmake/auto_controlConfig.cmake
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/cmake/auto_controlConfig-version.cmake
+-- Installing: /home/moonly/fpv_ros2_workspace/install/auto_control/share/auto_control/package.xml

@@ -1,5 +1,0 @@
-[0.067s] Invoking command in '/home/moonly/fpv_ros2_workspace/build/manual_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy _=/usr/bin/env /usr/bin/cmake --build /home/moonly/fpv_ros2_workspace/build/manual_control -- -j8 -l8
-[0.238s] [35m[1mScanning dependencies of target manual_control[0m
-[0.358s] [ 50%] [32mBuilding CXX object CMakeFiles/manual_control.dir/src/Manual_control.cpp.o[0m
-[4.516s] [100%] [32m[1mLinking CXX executable manual_control[0m
-[4.686s] [100%] Built target manual_control
